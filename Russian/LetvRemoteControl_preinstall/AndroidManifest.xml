@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.remotecontrol" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <permission android:name="com.letv.android.remotecontrol.permission.SEND_CONTROL" android:protectionLevel="normal"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.letv.android.remotecontrol.permission.SEND_CONTROL"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.letv.android.account.permission.ACCOUNT_RELEVANT"/>
+    <application android:allowBackup="true" android:debuggable="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.letv.android.remotecontrol.RMApplication" android:requiredAccountType="*" android:theme="@style/AppTheme">
+        <activity android:launchMode="singleTask" android:name="com.letv.android.remotecontrol.LaunchActivity" android:screenOrientation="portrait" android:theme="@style/AppSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.remotecontrol.MainUIActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.letv.android.remotecontrol.activity.MyDeviceActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.ControlHubActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.VoiceControlActivity">
+            <intent-filter>
+                <action android:name="com.letv.leui.intent.action.SEND_VOICE_DEVICE_CONTROL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.remotecontrol.activity.RemoteDeviceListActivity" android:screenOrientation="locked" android:theme="@style/translucent_NoTitleBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.letv.leui.intent.action.PICK_REMOTE_DEVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.remotecontrol.activity.AddDeviceActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.BackUpActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.SearchActivity" android:screenOrientation="portrait" android:theme="@style/AppSearch" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.video.ui.VideoInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.video.ui.StarInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.video.ui.LoopActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.video.ui.EPGActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.video.ui.TVAppActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.AboutUSActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.WriteInputDialogAct" android:screenOrientation="portrait" android:theme="@style/inputdialog" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <activity android:name="com.letv.android.remotecontrol.activity.screenshot.ScreenShotAcitivity" android:screenOrientation="portrait" android:theme="@style/translucent_NoTitleBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:icon="@drawable/icon_setting_remountcontrol" android:name="com.letv.android.remotecontrol.activity.GlobalSettingActivity" android:screenOrientation="portrait" android:theme="@style/SettingActivityTheme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="android.application.settings.TYPE" android:value="android.application.settings.TYPE_SYSTEM"/>
+            <meta-data android:name="android.application.settings.PRIOPRITY" android:value="7"/>
+        </activity>
+        <activity android:name="com.letv.android.remotecontrol.activity.TransParentActivity" android:screenOrientation="portrait" android:theme="@style/translucent_NoTitleBar" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="com.letv.android.RemoteControl.Button" android:exported="true" android:name="com.letv.android.remotecontrol.db.ButtonFuncProvider">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.letv.android.RemoteControl.Device" android:exported="true" android:name="com.letv.android.remotecontrol.db.DeviceDataProvider">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <provider android:authorities="com.letv.android.RemoteControl.BindDevice" android:exported="true" android:name="com.letv.android.remotecontrol.db.BindDeviceProvider">
+            <grant-uri-permission android:pathPattern=".*"/>
+        </provider>
+        <service android:exported="true" android:name="com.letv.android.remotecontrol.service.VoiceControlManagerService" android:permission="com.letv.android.remotecontrol.permission.SEND_CONTROL">
+            <intent-filter>
+                <action android:name="com.letv.android.remotecontrol.service.VoiceControlManager"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.letv.android.remotecontrol.activity.forecast.TimerService"/>
+        <service android:name="com.letv.android.remotecontrol.service.FxService">
+            <intent-filter>
+                <action android:name="com.letv.android.remotecontrol.FLOAT_CONTROL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.letv.android.remotecontrol.service.NotifiyServer"/>
+        <service android:exported="true" android:name="com.letv.android.remotedevice.service.RemoteDeviceManagerService"/>
+        <service android:name="com.letv.pp.service.CdeService" android:process=":cde"/>
+    </application>
+</manifest>

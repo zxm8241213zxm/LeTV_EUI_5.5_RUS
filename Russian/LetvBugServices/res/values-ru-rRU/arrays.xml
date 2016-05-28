@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="more_action_list">
+        <item>Контакты</item>
+        <item>"Сообщения не отправлено "</item>
+    </string-array>
+</resources>

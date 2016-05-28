@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.phone" package="com.qualcomm.qti.networksetting" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <application android:icon="@drawable/ic_launcher_phone" android:process="com.android.phone">
+        <uses-library android:name="com.qualcomm.qcrilhook"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/available_networks" android:launchMode="singleInstance" android:name=".NetworkSetting" android:theme="@android:style/Theme.Holo.DialogWhenLarge" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.settings.NETWORK_OPERATOR_SETTINGS"/>
+                <action android:name="org.codeaurora.settings.NETWORK_OPERATOR_SETTINGS_ASYNC"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HonestarIRtest</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="learnAndSave">Обучение, чтобы сохранить</string>
+    <string name="testBtn1">Тестовый образец 1</string>
+    <string name="testBtn2">Тестовый образец 2</string>
+    <string name="testBtn3">Тестовый образец 3</string>
+    <string name="sendLearned">Код обучения</string>
+    <string name="autoTest">Автоматический тест</string>
+    <string name="learnTest">Тест Функции обучения</string>
+</resources>

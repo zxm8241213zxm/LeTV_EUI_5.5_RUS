@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.DebugUtils" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.letv.android.DebugUtils.MainActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/enable_cdma" android:name="com.letv.android.DebugUtils.EnableCDMAActivity"/>
+        <receiver android:name="StartAppBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="76937" android:scheme="android_secret_code"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="9439" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Установшик</string>
+    <string name="next">Следующий шаг</string>
+    <string name="install">Установить</string>
+    <string name="done">Готово</string>
+    <string name="security_settings_desc">Разрешить это приложение для:</string>
+    <string name="cancel">Отмена</string>
+    <string name="unknown">Неизвестный</string>
+    <string name="install_done">Приложение установлено.</string>
+    <string name="install_confirm_question">Установить это приложение Это требует следующие разрешения:</string>
+    <string name="install_confirm_question_no_perms">Установить это приложение? Это приложение не требует разрешения.</string>
+    <string name="install_confirm_question_update">Установить это обновление? Данные не будут потеряны. Следующие разрешения требуются после обновления:</string>
+    <string name="install_confirm_question_update_system">Установить встроенный в приложение обновления? Данные не будут потеряны. Следующие разрешения требуется после обновления:</string>
+    <string name="install_confirm_question_update_no_perms">Установить обновления для этого приложения? Данные не будут потеряны и обновление не требует никаких разрешений.</string>
+    <string name="install_confirm_question_update_system_no_perms">Установить встроенный в приложение обновления? Данные не будут потеряны и обновление не требуется никаких разрешений.</string>
+    <string name="install_failed">Не удается установить приложение.</string>
+    <string name="install_failed_invalid_apk">Неверный АПК.</string>
+    <string name="install_failed_inconsistent_certificates">Приложение с таким сертификатом уже существует.</string>
+    <string name="install_failed_older_sdk">Это приложение может быть установлено только на новых версиях Android.</string>
+    <string name="install_failed_cpu_abi_incompatible">Это приложение несовместимо с Вашим телефоном.</string>
+    <string name="install_failed_file_not_found">АПК не найден. Невозможно завершить установку.</string>
+    <string name="install_failed_verify_failed">АПК не был проверен. Не удается установить.</string>
+    <string name="install_failed_verify_timeout">Тайм-аут проверки истёк. Пожалуйста, попробуйте еще раз.</string>
+    <string name="install_failed_msg">"Не удается установить %1$s  на вашем телефоне."</string>
+    <string name="launch">Открыть</string>
+    <string name="unknown_apps_dlg_title">Неизвестное приложение</string>
+    <string name="unknown_apps_dlg_text">По соображениям безопасности, ваш телефон не может устанавливать приложения из неизвестных источников.</string>
+    <string name="ok">Подтвердить</string>
+    <string name="settings">Настройки</string>
+    <string name="allow_source_dlg_title">Новый источник приложений</string>
+    <string name="allow_source_dlg_text">"%1$s просит установить другие приложения.
+
+Разрешить?"</string>
+    <string name="manage_applications">Управление приложениями</string>
+    <string name="dlg_app_replacement_title">Заменить это приложение?</string>
+    <string name="dlg_app_replacement_statement">"Приложение при установке заменит другое приложение.
+
+Система сохранит все пользовательские данные."</string>
+    <string name="dlg_sys_app_replacement_statement">"Это системное приложение.
+
+Система сохранит все предыдущие пользовательские данные."</string>
+    <string name="out_of_space_dlg_title">Не хватает свободного пространства</string>
+    <string name="out_of_space_dlg_text">Не удается установить %1$s. Освободите пространство и попробуйте еще раз.</string>
+    <string name="dlg_ok">Подтвердить</string>
+    <string name="app_not_found_dlg_title">Приложение не найдено</string>
+    <string name="app_not_found_dlg_text">Невозможно найти приложение в списке установленных приложений.</string>
+    <string name="uninstall_application_title">Удаление приложения</string>
+    <string name="uninstall_update_title">Удаление обновления</string>
+    <string name="uninstall_activity_text">%1$s из следующих приложений:</string>
+    <string name="uninstall_application_text">Удалить это приложение?</string>
+    <string name="uninstall_application_text_all_users">Удалить этого приложения для <b>all</b> пользователей? Будет удалено это приложение и его данные для <b>all</b> пользователей.</string>
+    <string name="uninstall_application_text_user">Удалить этого приложение для %1$s?</string>
+    <string name="uninstall_update_text">Переключите приложение в заводскую версию?</string>
+    <string name="uninstalling">Удаление...</string>
+    <string name="uninstall_done">Удаление завершено.</string>
+    <string name="uninstall_failed">Невозможно удалить.</string>
+    <string name="uninstall_failed_device_policy_manager">Приложение является менеджером устройства и не может быть удалено.</string>
+    <string name="uninstall_blocked_profile_owner">Приложение необходимо для %1$s и не может быть удалено.</string>
+    <string name="uninstall_blocked_device_owner">Это приложение требует для администрирования устройства и не может быть удалено.</string>
+    <string name="manage_device_administrators">Управление диспетчером устройств</string>
+    <string name="uninstall_failed_msg">Невозможно удалить %1$s.</string>
+    <string name="Parse_error_dlg_title">Разбор ошибок</string>
+    <string name="Parse_error_dlg_text">Ошибка при разборе пакета приложения.</string>
+    <string name="newPerms">Новый</string>
+    <string name="allPerms">Все</string>
+    <string name="privacyPerms">Конфиденциальность разрешений</string>
+    <string name="devicePerms">Разрешения устройства</string>
+    <string name="no_new_perms">Обновленная версия не требует каких-либо новых разрешений</string>
+    <string name="grant_confirm_question">Дать приложению следующие разрешения?</string>
+    <string name="unknow_source">Снять ограничения</string>
+    <string name="relieve_Prohibition">Снять ограничения</string>
+    <string name="unknow_source_message">"По соображениям безопасности, система ограничила установку приложения из неофициальных источников. Снятие органичения позволит вам устанавливать приложения из любого источника, но безопасность телефона и личной информаций может быть поставлена ​под угрозу и вы будете нести полную ответственность за риски.
+Вы также можете изменить эту настройку в меню Настройки> Безопасность."</string>
+    <string name="apk_uncompatible">Это приложение и приложение %1$s несовместимы. Пожалуйста, удалите эту программу или скачайте новую версию и попробуйте установить снова.</string>
+    <string name="apk_unnormal">АПК поврежден и не может быть установлен. Пожалуйста, загрузите его снова.</string>
+    <string name="apk_Version_low">Новая версия этого приложения уже существует на устройстве. Вы можете скачать более позднюю версию.</string>
+    <string name="apk_location_Incorrect">Каталог установки неправильный.</string>
+    <string name="apk_Unknown_error">Установить не удалось из-за неизвестной ошибки. Пожалуйста, повторно загрузите последнюю версию этого приложения и попробуйте установить снова.</string>
+    <string name="apk_redownload">Перезакачка</string>
+    <string name="clear_space">Очистка пространства</string>
+    <string name="parsing_failure">Этот файл АПК поврежден. Невозможно открыть.</string>
+    <string name="other_permissions">Другие разрешения</string>
+    <string name="app_version">Версия: %1$s</string>
+    <string name="low_compare_SDK">Версия приложения является слишком старой. Пожалуйста, скачайте последнюю версию приложения.</string>
+    <string name="update_system">Обновление системы</string>
+    <string name="install_failed_system_error">Система обнаружила ошибку при попытке завершить установку. Рекомендуется обновить систему до последней версии.</string>
+    <string name="not_enough_storage_space">Недостаточно места для хранения. Пожалуйста, освободите место, прежде чем пытаться снова.</string>
+    <string name="sdk_too_low">Установка невозможна - версия системы старая. Пожалуйста, обновите вашу систему перед повторной попыткой установки.</string>
+    <string name="apk_uncompatible_with_letv">Letv видео оптимизированая для EUI была установлена на телефоне. Старые версии Letv видео не поддерживаются.</string>
+    <string name="select_delete_apk">Удалить APK</string>
+    <string name="delete_apk_faile">Не удается удалить APK</string>
+    <string name="delete_apk_success">АПК удален</string>
+    <string name="no_perms">Приложение не требует каких-либо разрешений</string>
+    <string name="delete_apk_toast">APK %1$s удаляется</string>
+    <string name="installing">%1$d%% установлено</string>
+    <string name="high_risk_permissions">Высокий риск(связанный с безопасностью и неприкосновенностю частной жизни)</string>
+    <string name="install_failed_duplicate_permission">Запрашиваемые разрешений конфликтуют с пользовательскими разрешениями %2$s, запрошенные установленным приложением %1$s, который нарушает спецификации системы Android 5.0. Мы будем поощрять разработчиков, чтобы сделать обновленные версии, совместимые со спецификациями системы.</string>
+</resources>

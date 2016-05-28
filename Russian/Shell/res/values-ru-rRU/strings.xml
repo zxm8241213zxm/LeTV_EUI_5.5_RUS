@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Оболочка</string>
+    <string name="bugreport_finished_title">Отчёт об ошибке сформирован</string>
+    <string name="bugreport_finished_text">Прикоснитесь, чтобы отправить отчёт об ошибке</string>
+    <string name="bugreport_confirm">Отчёты об ошибках содержат данные из различных системных журналов, включая персональную и личную информацию. Отправляйте отчёты об ошибках только доверенным людям и приложениям.</string>
+    <string name="bugreport_confirm_repeat">Показать это сообщение в следующий раз</string>
+</resources>

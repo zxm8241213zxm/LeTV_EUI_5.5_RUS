@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_minute">
+        <item quantity="other">Установить напоминание на %1$d мин</item>
+        <item quantity="one">Установить напоминание на 1 мин</item>
+    </plurals>
+</resources>

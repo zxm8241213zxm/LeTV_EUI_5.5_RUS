@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="orientation_eight">
+        <item>С</item>
+        <item>СВ</item>
+        <item>В</item>
+        <item>ЮВ</item>
+        <item>Ю</item>
+        <item>ЮЗ</item>
+        <item>З</item>
+        <item>СЗ</item>
+    </string-array>
+    <string-array name="longitude_latitude" formatted="false">
+        <item>"%d° %d' %d\" В"</item>
+        <item>"%d° %d' %d\" З"</item>
+        <item>"%d° %d' %d\" N"</item>
+        <item>"%d° %d' %d\" Ю"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Темы LeUI</string>
+    <string name="hello_world">Привет Мир!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="upgrade_msg">Обновление базы тем</string>
+</resources>

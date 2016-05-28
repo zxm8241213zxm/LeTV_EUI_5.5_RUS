@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настройки контента Адаптивная подсветка</string>
+    <string name="cabl_settings_title">Настройки контента Адаптивная подсветка</string>
+    <string name="cabl_enable_title">Включить контент Адаптивной подсветки</string>
+    <string name="cabl_enable_summary_on">Подсветка будет регулироваться на основе содержимого экрана</string>
+    <string name="cabl_enable_summary_off">Подсветка не будет регулироваться на основе содержимого экрана</string>
+    <string name="cabl_levels_title">Визуальный уровень качества</string>
+    <string name="cabl_levels_summary">Нижний уровень качества указывают на то, что CABL будет пытаться сохранить заряд батареи, как это возможно без существенного влияния на отображение. Авто уровень CABL постарается максимально экономить электроэнергию , основанную на авто определении типа содержания отображения.</string>
+    <string name="cabl_level_default">Авто</string>
+    <string name="cabl_info_default">Неизвестный</string>
+    <string name="cabl_version_title">CABL Версия</string>
+</resources>

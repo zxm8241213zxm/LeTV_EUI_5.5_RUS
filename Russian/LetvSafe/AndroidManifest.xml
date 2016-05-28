@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.letvsafe" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <uses-permission android:name="android.permission.GET_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.letv.android.letvsafe.application.LetvSafeApplication" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.letv.android.letvsafe.HomeActivity">
+            <intent-filter>
+                <action android:name="com.letv.android.permissioncontrol"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PermissionActivity">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionpermission"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AppActivity">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionapps"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.letvsafe.LocationManageActivity">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionlocation"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.letvsafe.AutobootManageActivity">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionautoboot"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.letv.android.letvsafe.PermissionAndApps">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionandapps"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.android.letvsafe.PermissionLogActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/le_protect_app" android:name="com.letv.android.letvsafe.BackgroundAppManageActivity" android:theme="@style/BackgroundappTheme">
+            <intent-filter>
+                <action android:name="com.letv.android.permissionbackgroundapp"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

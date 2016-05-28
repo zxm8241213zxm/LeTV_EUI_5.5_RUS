@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.bugreporter" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <permission android:name="com.letv.android.bugreporter.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.letv.android.bugreporter.permission.PUSH_RECEIVER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <application android:allowBackup="true" android:icon="@drawable/app_icon" android:label="@string/app_name" android:name="com.letv.bugservices.app.IssueApplication">
+        <activity android:name="com.letv.bugservices.app.IssueMain" android:screenOrientation="portrait" android:theme="@style/LeMainUItheme" android:windowSoftInputMode="adjustNothing|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letv.bugservices.app.IssueFreedBack" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.app.IssueRobot" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.app.BugReport" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.app.ServiceStation" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.app.ArtificialServiceMain" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.app.ArtificialService" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.bbs.MyBackReview" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme"/>
+        <activity android:name="com.letv.bugservices.bugreport.MainReportActivity" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme">
+            <intent-filter>
+                <action android:name="com.letv.bugservices.reporter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.letv.bug.reporter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/advanced" android:launchMode="singleTask" android:name="com.letv.bugservices.bugreport.BugDetailAdvancedInteralActivity" android:screenOrientation="portrait" android:theme="@style/LeUIMainTheme">
+            <intent-filter>
+                <action android:name="com.letv.action.bugreport.detailadvance"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.letv.bugservices.bbs.LetvPushIntentService"/>
+        <receiver android:name="com.letv.bugservices.bbs.WeakMessageReceiver" android:permission="com.stv.stvpush.permission.SEND_PUSH">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_RECEIVE_PUSH_MESSAGE"/>
+                <category android:name="com.letv.bugservices"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.letv.bugservices.bbs.MyReceiver" android:permission="com.stv.stvpush.permission.SEND_PUSH">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_SERVICE_STARTED"/>
+                <action android:name="com.stv.stvpush.ACTION_CONNECTED_PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.letv.bugservices.bugreport.DialerReceiver">
+            <intent-filter android:priority="3000">
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="8888" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

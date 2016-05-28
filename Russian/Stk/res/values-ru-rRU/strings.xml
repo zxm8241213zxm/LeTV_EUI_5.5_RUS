@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инструменты SIM</string>
+    <string name="app_name2">Инструменты 2 SIM</string>
+    <string name="app_name3">Инструменты 3 SIM</string>
+    <string name="menu_end_session">Конец сессии</string>
+    <string name="help">Помощь</string>
+    <string name="menu_back">Назад</string>
+    <string name="service_name">Наименование услуги</string>
+    <string name="stk_no_service">Нет доступных служб</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_yes">Да</string>
+    <string name="button_no">Нет</string>
+    <string name="alphabet">Буквы</string>
+    <string name="digits">Цифр (0-9, *, #,+)</string>
+    <string name="default_call_setup_msg">Вызов...</string>
+    <string name="default_setup_call_msg">По умолчанию вызов установки сообщения</string>
+    <string name="stk_app_state">Состояние приложения</string>
+    <string name="enable_app">Включен</string>
+    <string name="disable_app">Отключено</string>
+    <string name="stk_dialog_title">Инструменты SIM-карты</string>
+    <string name="default_tone_dialog_msg">Мелодия SMS по умолчанию</string>
+    <string name="default_open_channel_msg">Открыть канал?</string>
+    <string name="default_send_data_msg">Отправка данных</string>
+    <string name="default_receive_data_msg">Прием данных</string>
+    <string name="default_close_channel_msg">Канал закрыт</string>
+    <string name="stk_dialog_accept">Да</string>
+    <string name="stk_dialog_reject">Нет</string>
+    <string name="stk_intent_permission">Разрешить STK Intents</string>
+    <string name="app_name_cu">Приложения USIM карты</string>
+    <string name="app_name1_cu">Приложения USIM карты1</string>
+    <string name="app_name2_cu">Приложения USIM карты2</string>
+    <string name="no_sim_card_inserted">Пожалуйста, вставьте SIM-карту для запуска SIM Toolkit.</string>
+    <string name="main_menu_not_initialized">Главное меню не инициализировано</string>
+    <string name="lable_sim_not_ready">SIM Toolkit не готов или не поддерживается</string>
+</resources>

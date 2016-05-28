@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_title">Мастер настройки</string>
+    <string name="panel_footer_text_next">Продолжить</string>
+    <string name="panel_footer_text_skip">Пропустить</string>
+    <string name="panel_footer_text_finish">Завершено</string>
+    <string name="setupguide_strings_done_button_txt">Готово</string>
+    <string name="title">Выберите Ваш язык</string>
+    <string name="inputmethod_pinyin_9_keys">Девятизначный пиньинь</string>
+    <string name="inputmethod_pinyin_all_keys">Полная клавиатура пиньинь</string>
+    <string name="inputmethod_wubi">Wubi</string>
+    <string name="inputmethod_bihua">Bihua</string>
+    <string name="inputmethod_shouxie">Ручное написание</string>
+    <string name="inputmethod_english_all_keys">Английский</string>
+    <string name="title_usage_terms">Условия использования</string>
+    <string name="useragreement">Пользовательское соглашение</string>
+    <string name="privacypolicy">Политика конфиденциальности</string>
+    <string name="agreement">Принять и продолжить</string>
+    <string name="agreement_oversea">Продолжить</string>
+    <string name="title_usage_terms_description">Выберите Принять, чтобы насладиться сервисами EUI</string>
+    <string name="title_usage_terms_description_oversea">"Нажимания Продолжить Вы подтверждаете, 
+что прочитали и приняли 
+Пользовательское соглашение и Политику конфиденциальности."</string>
+    <string name="sim_damaged_title">Карта %d повреждена</string>
+    <string name="sim_locked_title">Карта %d заблокирована</string>
+    <string name="sim_missing_title">Карта %d не вставлена</string>
+    <string name="sim_damaged_text">Поменяйте SIM-карту</string>
+    <string name="sim_damaged_nomal_toast">SIM-карта повреждена. Пожалуйста, вставьте исправную SIM-карту.</string>
+    <string name="sim_damaged_puk_lock_toast">SIM-карта заблокирована. Пожалуйста, свяжитесь с Вашим оператором связи.</string>
+    <string name="sim_checking_title">Вставьте SIM-карту</string>
+    <string name="sim_detect_title">Карта %d обнаружена</string>
+    <string name="sim_missing_text">Пожалуйста, вставьте SIM-карту</string>
+    <string name="mobiledate">Сотовая связь</string>
+    <string name="description_mobile">Доступ к Интернет по сотовой связи возможен при отсутствии соединения по Wi-Fi</string>
+    <string name="button_not_use_sim_text">Не использовать</string>
+    <string name="title_other_service">Другие сервисы</string>
+    <string name="title_location_service">Включить службу определения местоположения</string>
+    <string name="title_location_service_description">Служба определения местоположения позволяет \"Картам\" или другим приложениям использовать Wi-Fi и сотовые сети, для определения местоположения.</string>
+    <string name="title_location_service_description_oversea">Служба определения местоположения позволяет \"Картам\" или другим приложениям использовать GPS , для определения местоположения.</string>
+    <string name="title_user_plan_service">Включить использование обратной связи</string>
+    <string name="title_user_plan_service_description">В целях улучшения качества продукции и удовлетворенности пользователей мы даем Вам возможность представить отзыв. Сбор данных в строгом соответствии с <u>Политикой конфиденциальности</u>.</string>
+    <string name="setupguide_strings_finished_title">Установка завершена</string>
+    <string name="setupguide_strings_finished_content">Добро пожаловать в мир Le Superphone.</string>
+    <string name="dialogcanel">Отмена</string>
+    <string name="inputmethod_dialogtitle">Китайский метод ввода</string>
+    <string name="SIM_1">SIM-карта 1</string>
+    <string name="SIM_2">SIM-карта 2</string>
+    <string name="zh_hk">zh_HK</string>
+    <string name="title_google_service">Сервисы Google</string>
+    <string name="use_google_service">Настройка учетной записи Google</string>
+    <string name="google_service_description">Настройте учетную запись Google для использования сервисов Google. Если у вас уже есть аккаунт Google, авторизуйтесь. Если нет, пожалуйста, создайте его прямо сейчас.</string>
+    <string name="title_country_region">Выберите страну или регион</string>
+    <string name="hongkong">Гонконг</string>
+    <string name="india">Индия</string>
+    <string name="title_letv_ecological">Le Ecosystem Content</string>
+    <string name="letv_ecological_description">«Если вы решили использовать Le Ecosystem , следующие приложения будут автоматически установлены на Ваш Superphone»</string>
+    <string name="letv_ecological_tip">Чтобы вручную выбрать, какие приложения вы хотите установить, зайдите в: Настройки > Личные Данные > Ле Экосистему Контента</string>
+    <string name="use_letv_ecological">Использовать Le Ecosystem Content</string>
+    <string name="letv">LeTV Видео</string>
+    <string name="live">Живой рабочий стол</string>
+    <string name="lesee">LeView рабочий стол</string>
+    <string name="title_display_mode">Выберете размер просмотра</string>
+    <string name="title_display_mode_description">"Настройте размер и расположение экрана
+Сброс в: Настройки> Экран> Масштабирование просмотра"</string>
+    <string name="display_mode_normal">Стандартный (текущий)</string>
+    <string name="display_mode_large">Увеличить</string>
+    <string name="display_mode_small">Деликатный</string>
+    <string name="display_mode_confirm_description">Просмотр перехода может перезагрузить Ваш телефон. Продолжить?</string>
+    <string name="display_mode_confirm_button">Продолжить</string>
+    <string name="title_fingerprint_guide">Добавить отпечаток пальца</string>
+    <string name="title_fingerprint_success">Успешно добавлено</string>
+    <string name="title_fingerprint_guide_description">Добавленный отпечаток пальца можно использовать для разблокировки телефона</string>
+    <string name="title_fingerprint_success_description">Вы можете изменить отпечаток в \"Настройках > Отпечатки > Управление отпечатками\"</string>
+    <string name="btn_start_fingerprint">Начните добавлять</string>
+</resources>

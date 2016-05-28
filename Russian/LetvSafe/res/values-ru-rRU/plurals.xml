@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="autoboot_title">
+        <item quantity="other">Вы разрешили %d приложению(ям) автозапуск</item>
+        <item quantity="one">Вы разрешили %d приложению(ям) автозапуск</item>
+    </plurals>
+    <plurals name="number_apps">
+        <item quantity="other">%s приложений</item>
+        <item quantity="one">%s app</item>
+    </plurals>
+</resources>

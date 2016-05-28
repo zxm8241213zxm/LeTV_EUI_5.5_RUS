@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.qti.service.colorservice" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-eng.lnxbuild.20150827.190754">
+    <application>
+        <uses-library android:name="com.qti.snapdragon.sdk.display" android:required="true"/>
+        <service android:exported="true" android:name=".ColorServiceApp">
+            <intent-filter>
+                <action android:name="com.qti.service.colorservice.ColorServiceApp"/>
+            </intent-filter>
+        </service>
+    </application>
+    <permission android:description="@string/permission_description" android:label="@string/permission_label" android:name="com.qti.snapdragon.sdk.permission.DISPLAY_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+</manifest>

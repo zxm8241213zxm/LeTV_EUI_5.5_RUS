@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.supermanager" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_MMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_NETWORK_ACCOUNTING"/>
+    <uses-permission android:name="android.permission.MANAGE_NETWORK_POLICY"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.REMOVE_TASKS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_DETAILED_TASKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.letv.android.SuperManagerApplication" android:theme="@style/AppTheme">
+        <service android:label="@string/app_name_service" android:name=".impl.tms.service.TmsSecureService"/>
+        <receiver android:name=".impl.tms.receiver.AutoFlowCorrectionReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.letv.android.supermanager.action.AutoFlowCorrection"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".impl.tms.receiver.TmsBootReceiver"/>
+        <activity android:label="@string/app_name" android:name=".activity.SuperManagerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/string_settings" android:name=".activity.SuperManagerSettingsActivity" android:theme="@style/AppSettingsTheme"/>
+        <activity android:label="@string/string_rubbish_clean" android:name=".activity.RubbishCleanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/string_powersaving_manager" android:name=".activity.PowersavingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/string_advanced_power_saving" android:name=".activity.AdvancedPowersavingActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme"/>
+        <activity android:exported="true" android:label="@string/string_flow_control" android:name=".activity.FlowInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:label="@string/string_flow_order" android:name=".activity.FlowOrderActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme"/>
+        <activity android:exported="true" android:label="@string/string_networked_control" android:name=".activity.FlowNetworkControlActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme"/>
+        <activity android:label="@string/string_flow_setting" android:name=".activity.FlowSettingsActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme"/>
+        <activity android:label="@string/string_flow_userd_detail" android:name=".activity.FlowUserdDetailActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme"/>
+        <activity android:exported="true" android:label="@string/string_flow_package_setting" android:name=".activity.FlowPackageSettingsActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme">
+            <intent-filter>
+                <action android:name="com.letv.android.supermanager.action.FlowPackageSetting"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/string_provinces_and_operators" android:name=".activity.FlowOperatorsActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme">
+            <intent-filter>
+                <action android:name="com.letv.android.supermanager.action.ProvincesAndOperators"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/string_flow_package_start_day" android:name=".activity.FlowPackageStartDayActivity" android:screenOrientation="portrait" android:theme="@style/AppSettingsTheme">
+            <intent-filter>
+                <action android:name="com.letv.android.supermanager.action.FlowPackageStartDay"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/string_permission_manager" android:name=".activity.PermissionManagerActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

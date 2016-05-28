@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DebugUtil</string>
+    <string name="sleep_sign">Sleep Sign On</string>
+    <string name="download_mode">Режим загрузки</string>
+    <string name="enable_logs">Включить все журналы</string>
+    <string name="enable_cdma">FDD-LTE/WCDMA</string>
+    <string name="reboot">Пожалуйста, перезагрузите ваш мобильный телефон.</string>
+</resources>

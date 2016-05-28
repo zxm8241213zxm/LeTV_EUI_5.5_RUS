@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">Найдено %d журналов звонков</item>
+        <item quantity="one">Найден 1 журнал звонков</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено %d контактов</item>
+        <item quantity="one">Найден 1 контакт</item>
+    </plurals>
+    <plurals name="rington_count">
+        <item quantity="other">Позвонить %s раз</item>
+        <item quantity="one">Позвонить 1 раз</item>
+    </plurals>
+    <plurals name="contactsDeleteTip">
+        <item quantity="other">Удалить %s контактов?</item>
+        <item quantity="one">Удалить 1 контакт?</item>
+    </plurals>
+    <plurals name="import_from_vcard_success">
+        <item quantity="other">Контакты импортированы</item>
+        <item quantity="one">Контакт импортирован</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Контакты с номерами телефонов: %d</item>
+        <item quantity="one">Контакты с номерами телефона: 1</item>
+    </plurals>
+    <plurals name="count_mult_mode">
+        <item quantity="other">Найдено %d контактов</item>
+        <item quantity="one">Найден 1 контакт</item>
+    </plurals>
+    <plurals name="addContactsForGroupTip">
+        <item quantity="other">Добавить %s контактов в эту группу?</item>
+        <item quantity="one">Добавить 1 контакт в эту группу?</item>
+    </plurals>
+    <plurals name="selectedContact">
+        <item quantity="other">Выбрано: %d</item>
+        <item quantity="one">1 выбран</item>
+    </plurals>
+</resources>

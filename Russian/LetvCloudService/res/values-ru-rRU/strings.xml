@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LeCloud</string>
+    <string name="disable_http_compression">Отключение HTTP-сжатия</string>
+    <string name="http_compression_disabled">HTTP-сжатие отключено (режим отладки)</string>
+    <string name="http_compression_enabled">HTTP-сжатие используется, когда это возможно</string>
+    <string name="network_logging">Журнал сетевого трафика</string>
+    <string name="network_logging_enabled">Весь сетевой трафик протоколируется многословно (режим отладки)</string>
+    <string name="network_logging_disabled">Сетевой трафик не зарегистрирован</string>
+    <string name="too_much_sync_data" formatted="false">Данные должны быть синхронизированы больше чем %d, пожалуйста, удалите часть %s для синхронизизации, иначе синхронизация не удастся.</string>
+    <string name="lack_of_internet_connectivity">Отсутствие подключения к интернету</string>
+    <string name="type_contact">Контакты или группы</string>
+    <string name="type_note">Заметки или блокноты</string>
+    <string name="type_browser">Закладки или история</string>
+    <string name="type_calendar">События</string>
+    <string name="type_calllog">История вызовов</string>
+    <string name="type_music">Музыка</string>
+    <string name="type_leextnumlist">Черный список</string>
+    <string name="type_mmssmssync">Обмен сообщениями</string>
+    <string name="add_new_resource_notification">новые элементы синхронизации добавленны, пожалуйста, нажмите кнопку установить</string>
+    <string name="system_time_error">Ошибка системного времени, сбой синхронизации</string>
+    <string name="fix_system_time">Изменить системное время</string>
+    <string name="ignore">Игнорировать</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">Живые обои Android</string>
+    <string name="wallpaper_walkaround">Смотрите сквозь</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">Смотрите сквозь телефон и передвигайтесь без риска возникновения несчастного случая! 100% информация</string>
+    <string name="wallpaper_clock">Полярные часы</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">Показывает дату и время по часовой стрелке дугой: месяц, день, час, минута и секунда.</string>
+    <string name="clock_settings">Настройки полярных часов</string>
+    <string name="show_seconds">Показывать секунды</string>
+    <string name="variable_line_width">Различные диаметры круга</string>
+    <string name="palette">Цветовая палитра</string>
+    <string name="palette_gray">Металл</string>
+    <string name="palette_violet">Полночь</string>
+    <string name="palette_matrix">Зелёный экран</string>
+    <string name="palette_white_c">Полярный медведь (движущиеся)</string>
+    <string name="palette_black_c">Чёрная дыра (движущиеся)</string>
+    <string name="palette_halloween">Тыквенный пирог</string>
+    <string name="palette_zenburn">Инопланетный фруктовый салат</string>
+    <string name="palette_oceanic">Голубой лазер</string>
+    <string name="wallpaper_grass">Трава</string>
+    <string name="wallpaper_grass_author">Google</string>
+    <string name="wallpaper_grass_desc">Стебли травы нежно колышутся на фоне дневного или ночного неба.</string>
+    <string name="wallpaper_galaxy">Галактика</string>
+    <string name="wallpaper_galaxy_author">Google</string>
+    <string name="wallpaper_galaxy_desc">Галактика состоит из медленно кружащихся звезд. Красота!</string>
+    <string name="wallpaper_fall">Вода</string>
+    <string name="wallpaper_fall_author">Google</string>
+    <string name="wallpaper_fall_desc">Листья жёлтые падают&lt;br> на пруд, он отзывается кругами:&lt;br> красивый жидкий фон</string>
+    <string name="wallpaper_nexus">Связь</string>
+    <string name="wallpaper_nexus_author">Google</string>
+    <string name="wallpaper_nexus_desc">Загляните внуть нейронной сети.</string>
+</resources>

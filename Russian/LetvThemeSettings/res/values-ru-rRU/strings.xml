@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Обои и темы</string>
+    <string name="system_wallpaper">Системные обои</string>
+    <string name="local_theme">Темы на устройстве</string>
+    <string name="online_theme">Темы онлайн</string>
+    <string name="eui">EUI</string>
+    <string name="elegant_lady">Элегантная девушка</string>
+    <string name="gorgeous">Великолепная</string>
+    <string name="noble_lady">Благородная девушка</string>
+    <string name="romantic_lady">Романтичная девушка</string>
+    <string name="thin">Тонкий</string>
+    <string name="flat">Простой</string>
+    <string name="multicolored">Красочный</string>
+    <string name="eui_tv">EUI TV</string>
+    <string name="elegant">Изысканная мудрость</string>
+    <string name="miyue">Названия месяцев</string>
+    <string name="yike">Плаза</string>
+    <string name="state_wifi_network">Вы используете подключение с помощью Wi-Fi</string>
+    <string name="state_mobile_network">Вы используете подключение с помощью сотовой связи</string>
+    <string name="state_no_network">Нет подключения к сети</string>
+    <string name="state_network_timeout">Истекло время ожидания для сетевого подключения. Пожалуйста, проверьте ваше соединение.</string>
+    <string name="success_download">Загружено</string>
+    <string name="cancal_download">Отмена загрузки, нажмите снова для продолжения</string>
+    <string name="set_theme_success">Тема применена</string>
+    <string name="set_theme_fail">Невозможно применить тему</string>
+    <string name="theme_has_downloaded">Тема загружена</string>
+    <string name="make_sure_delete_theme">Удалить эту тему?</string>
+    <string name="yes">Подтвердить</string>
+    <string name="no">Отмена</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LeSuperPhone Max</string>
+    <string name="weibosdk_demo_toast_share_success">Обмен завершен</string>
+    <string name="weibosdk_demo_toast_share_canceled">Отменить передачу</string>
+    <string name="weibosdk_demo_toast_share_response_args_success">Получен успешный запрос, инициированный Weibo</string>
+    <string name="weibosdk_demo_toast_share_response_args_failed">Ошибка получения сообщения с запросом клиента</string>
+    <string name="weibosdk_demo_not_support_api_hint">Микроблог клиента не поддерживает клиент SDK или передача для микроблогов не установлена или используется клиент микроблогов неофициальной версии.</string>
+    <string name="weibosdk_demo_token_has_existed">Маркер остается в силе, без необходимости входа в систему снова.</string>
+    <string name="weibosdk_demo_token_to_string_format_1">"Маркер：%1$s 
+Срок действия：%2$s"</string>
+    <string name="weibosdk_demo_toast_auth_success">Авторизация прошла успешно</string>
+    <string name="weibosdk_demo_toast_auth_failed">Ошибка авторизации</string>
+    <string name="weibosdk_demo_toast_share_failed">Не удалось, попробуйте снова</string>
+</resources>

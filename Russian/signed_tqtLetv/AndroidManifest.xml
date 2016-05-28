@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="sina.mobile.tianqitongletv" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.sina.tianqitong.PERMISSION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="com.sina.permission.SINA_PUSH"/>
+    <permission android:name="com.sina.permission.SINA_PUSH" android:protectionLevel="normal"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/app_ic_launcher" android:label="@string/app_name" android:name="sina.mobile.tianqitongletv.TQTApp">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="f4670554ac4a85f9bbb3224a0f2d5417"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="天气" android:launchMode="singleTask" android:name="com.sina.tianqitong.ui.main.MainTabActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.sina.tianqitong.TEMP_ACTIVITY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="sina.mobile.tianqitongletv.ALARM_POPUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="sina.mobile.tianqitongletv.SHOW_CITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:name="sina.mobile.tianqitongletv.appwidget.WidgetConfigure" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="天气通2" android:name="com.sina.tianqitong.ui.main.TestUIsList" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/letv_preference_settings_activity_icon" android:name="com.sina.tianqitong.ui.settings.view.TQTLetvPreferenceSettingActivity" android:screenOrientation="portrait" android:theme="@style/letv_setting_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="android.application.settings.TYPE" android:value=" android.application.settings.TYPE_OTHER"/>
+            <meta-data android:name="android.application.settings.PRIOPRITY" android:value="1"/>
+        </activity>
+        <activity android:label="选择城市" android:name="com.sina.tianqitong.ui.main.TestMain" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.sina.tianqitong.TEMP_ACTIVITY"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="城市选择界面" android:name="com.sina.tianqitong.ui.cityselector.CitySelector" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.sina.tianqitong.TEMP_ACTIVITY"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sina.tianqitong.ui.cityselector.LocateCountDownActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sina.tianqitong.ui.cityselector.CitySelectorCity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.sina.tianqitong.ui.cityselector.CitySelectorProvince" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.sina.tianqitong.ui.cityselector.CitySelectorCountry" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.sina.tianqitong.ui.life.WebActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.RepostActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareScreenToWeiboActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareScreenToWeixinActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareScreenToQQAndQZoneActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareWeatherToWeiboActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareWeatherToWeixinActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ShareWeatherToQQAndQZoneActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <service android:icon="@drawable/app_ic_launcher" android:label="@string/app_name" android:name="com.sina.tianqitong.service.TQTService">
+            <intent-filter>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_weatherinfo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_weatherinfo_notification"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_new_weibo_topic"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_new_version"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_new_week_recommend"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_new_tts_operation"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.do_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_before_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.pop_up_before_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_4x2appwidget"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_4x1appwidget"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_5x2appwidget"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_5x1appwidget"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_widget_clock"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.switch_appwidget_city"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.do_tts_widget"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.user_introduction_for_weibo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.run_weibo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.do_tts_alarm"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.do_jieqi_alarm"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.do_festival_alarm"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.applay_latest_alarm"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.share_weibo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.wake_up_and_update_one_city"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.hangeng_alarm_register"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.auto_share_weibo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.update_all_citys"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.addupdate_locate_city"/>
+                <action android:name="sina.mobile.tianqitongletv.action.startservice.get_pid"/>
+                <action android:name="sina.mobile.tianqitongletv.ACTION_DAILY_SCHEDULE_REFRESH_TIMELINE"/>
+                <action android:name="sina.mobile.tianqitongletv.ACTION_CHECK_SOME_DAY"/>
+                <action android:name="sina.mobile.tianqitongletv.ACTION_CHECK_SECOND_DAY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sinaweather"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.sina.tianqitong.service.receiver.AlarmReceiver">
+            <intent-filter>
+                <action android:name="sina.mobile.tianqitongletv.action.use_weather_notification"/>
+                <action android:name="sina.mobile.tianqitongletv.action.auto_update"/>
+                <action android:name="sina.mobile.tianqitongletv.action.update_before_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.use_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.use_jieqi_notification"/>
+                <action android:name="sina.mobile.tianqitongletv.action.use_festival_notification"/>
+                <action android:name="sina.mobile.tianqitongletv.action.recommend_time_updatetime"/>
+                <action android:name="sina.mobile.tianqitongletv.action.tts_operation_updatetime"/>
+                <action android:name="sina.mobile.tianqitongletv.action.check_version_updatetime"/>
+                <action android:name="sina.mobile.tianqitongletv.action.weibo_operation_updatetime"/>
+                <action android:name="sina.mobile.tianqitongletv.action.pop_up_before_tts"/>
+                <action android:name="sina.mobile.tianqitongletv.action.user_introduction_for_weibo"/>
+                <action android:name="sina.mobile.tianqitongletv.action.hangeng_alarm_notifitime"/>
+                <action android:name="sina.mobile.tianqitongletv.action.user_auto_share_weibo"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="sina.mobile.tianqitongletv.appwidget.TQTReciever">
+            <intent-filter>
+                <action android:name="sina.mobile.tianqitongletv.action.update_widget_clock"/>
+                <action android:name="com.miui.home.intent.action.UNLOCKED"/>
+                <action android:name="sina.mobile.tianqitongletv.INTENT_BC_TTS_PLAYING_FINISHED"/>
+                <action android:name="sina.mobile.tianqitongletv.INTENT_BC_TTS_PLAYING"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/_4x2_tqt" android:name="sina.mobile.tianqitongletv.appwidget.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info"/>
+        </receiver>
+        <provider android:authorities="com.sina.tianqitong.LetvTqtContentProvider" android:name="com.sina.tianqitong.provider.LetvTqtContentProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvCitysDBProvider" android:name="com.sina.tianqitong.provider.LetvCitysDBProvider"/>
+        <provider android:authorities="com.sina.tianqitong..LetvSubscribeInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvSubscribeInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvLiveactionInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvLiveactionInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvSpecialTopicProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvSpecialTopicProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvResourceCenterInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvResourceCenterInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvRefinedForecastInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvRefinedForecastInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvLifeInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvLifeInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvAdInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvAdInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvHomepageInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvHomepageInfoProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:name="com.sina.tianqitong.ui.settings.SettingsCityActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.homepage.AirPollutionIndexActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:name="com.sina.tianqitong.ui.settings.ShowAdFullscreenDialog" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.main.AlarmActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.main.AlarmItemSetActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMoreUpdateActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMoreNotificationActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.LetvSettingsNotificationActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMorePhoneAreaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMoreHelpDetailActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMoreHelpActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsMoreAboutActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsPortalActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsPortal1Activity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.SettingsPortal2Activity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="sina.mobile.tianqitongletv.main.Splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.main.LauncherAdActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.settings.buildinfo.BuildInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.NearbyPositionsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.AuthorizeActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.activitys.ImageDisplay" android:process=":imagedisplay" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.ATSearchFirendActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.share.weibo.activitys.TopicListActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.sina.tianqitong.share.activitys.ShowShareDialog" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.sina.tianqitong.appwidget.skinchangable.LetvAlertDialog" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.sina.tianqitong.share.activitys.ShowDeleteTextDialog" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.sina.tianqitong.share.weibo.activitys.SendDialogSelect" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.sina.tianqitong.ui.homepage.ForecastDetailActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="sina.mobile.tianqitongletv.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@style/non_activity_animation_theme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.sina.tianqitong.ui.main.XxxActivity" android:screenOrientation="portrait" android:theme="@style/transparent"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:name="com.weibo.mobileads.view.AdActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:name="com.weibo.mobileads.view.FlashAdActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100934748"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.sina.tianqitong.provider.LetvWeiboProvider" android:name="com.sina.tianqitong.provider.LetvWeiboProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvWeatherInfoProvider" android:exported="true" android:name="com.sina.tianqitong.provider.callweather.LetvWeatherInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvLogInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.log.LetvLogInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvLiveActionBgDataProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvLiveActionBgDataProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvAdvertiseDataProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvAdvertiseDataProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvDownloadInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.download.LetvDownloadInfoProvider"/>
+        <provider android:authorities="com.sina.tianqitong.LetvOtherInfoProvider" android:exported="false" android:name="com.sina.tianqitong.provider.LetvOtherInfoProvider"/>
+    </application>
+</manifest>

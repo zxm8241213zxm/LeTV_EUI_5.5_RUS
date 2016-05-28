@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Кино и пьесы</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Синглы</item>
+        <item>Музыкальные альбомы</item>
+        <item>Похожие исполнители</item>
+        <item>Похожие твиты</item>
+        <item>Похожие веб-сайты</item>
+    </string-array>
+    <string-array name="player">
+        <item>Кино и пьесы</item>
+        <item>Спортивные новости</item>
+        <item>Обои</item>
+        <item>Ни один</item>
+        <item>Музыкальные альбомы</item>
+        <item>Ни один</item>
+        <item>Похожие твиты</item>
+        <item>Похожие веб-сайты</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Кино и пьесы</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Саундтреки</item>
+        <item>Ни один</item>
+        <item>Похожие исполнители</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+    </string-array>
+    <string-array name="team">
+        <item>Кино и пьесы</item>
+        <item>Актуальные новости</item>
+        <item>Обои</item>
+        <item>Похожая музыка</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Ни один</item>
+        <item>Новости брендов</item>
+        <item>Обои</item>
+        <item>Музыкальные лейблы</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+        <item>Похожие твиты</item>
+        <item>Похожие веб-сайты</item>
+    </string-array>
+    <string-array name="region">
+        <item>Ни один</item>
+        <item>Последние видео</item>
+        <item>Обои</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+        <item>Ни один</item>
+        <item>Похожие твиты</item>
+        <item>Ни один</item>
+    </string-array>
+</resources>

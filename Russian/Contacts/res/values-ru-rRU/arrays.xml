@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="number_opt">
+        <item>Создать контакт</item>
+        <item>Сохранить в контактах</item>
+        <item>Удалить</item>
+        <item>Журнал звонков сверху</item>
+        <item>Добавить в черный список</item>
+        <item>Пометить</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Мошенничество</item>
+        <item>Агент</item>
+        <item>Маркетинг</item>
+        <item>Доставка</item>
+        <item>Экспресс</item>
+        <item>По умолчанию</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Блокировать звонки и сообщения</item>
+        <item>Блокировать звонки</item>
+        <item>Блокировать сообщения</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Организация</item>
+        <item>Заметки</item>
+    </string-array>
+</resources>

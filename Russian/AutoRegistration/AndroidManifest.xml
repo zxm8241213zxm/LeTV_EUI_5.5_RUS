@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.phone" package="com.qualcomm.qti.autoregistration" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application>
+        <service android:exported="false" android:name=".RegistrationService"/>
+        <receiver android:name=".AutoRegReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.qualcomm.action.AUTO_REGISTRATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="9999" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.qualcomm.qti.service.GET_DEVICE_INFO" android:name="com.qualcomm.qti.service.DeviceInfoProvider" android:process="com.android.phone"/>
+    </application>
+</manifest>

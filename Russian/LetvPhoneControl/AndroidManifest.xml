@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="com.letv.android.phonecontrol" coreApp="true" package="com.letv.android.phonecontrol" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <uses-permission android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.letv.android.phonecontrol.permisson.PHONE_CONTROL_SEND_BROADCAST"/>
+    <uses-permission android:name="com.letv.android.phonecontrol.permisson.PHONE_CONTROL_BROADCAST"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.letv.android.account.permission.BINDIMEI"/>
+    <uses-permission android:name="com.letv.android.account.permission.UNBINDIMEI"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.MANAGE_NETWORK_POLICY"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.permission.MODIFY_NETWORK_ACCOUNTING"/>
+    <uses-permission android:name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+    <uses-permission android:name="android.permission.DUMP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <permission android:name="com.letv.android.phonecontrol.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.letv.android.phonecontrol.permission.PUSH_RECEIVER"/>
+    <permission android:description="@string/permdesc_service_bind" android:label="@string/perm_service_bind" android:name="com.letv.android.phonecontrol.permisson.PHONE_CONTROL" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_service_send_broadcast" android:label="@string/perm_service_send_broadcast" android:name="com.letv.android.phonecontrol.permisson.PHONE_CONTROL_SEND_BROADCAST" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_service_broadcast" android:label="@string/perm_service_broadcast" android:name="com.letv.android.phonecontrol.permisson.PHONE_CONTROL_BROADCAST" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name=".PhoneControlApp" android:persistent="true" android:process="com.letv.android.phonecontrol" android:theme="@style/AppTheme">
+        <activity android:launchMode="singleTask" android:name=".activity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.letv.android.phonecontrol.action.ALARM_ALERT_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.letv.android.phonecontrol.client.SystemReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".push.LePushIntentService"/>
+        <receiver android:name=".push.LePushIntentReceiver" android:permission="com.stv.stvpush.permission.SEND_PUSH">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_NOTIFICATION_MESSAGE"/>
+                <category android:name="com.letv.android.phonecontrol"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_RECEIVE_PUSH_MESSAGE"/>
+                <category android:name="com.letv.android.phonecontrol"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name=".client.PhoneControlService" android:permission="com.letv.android.phonecontrol.permisson.PHONE_CONTROL">
+            <intent-filter>
+                <action android:name="com.letv.android.phonecontrol.ACTION_BIND_CONTROL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.letv.android.phonecontrol.ACTION_BIND_CONTROL_OUT"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

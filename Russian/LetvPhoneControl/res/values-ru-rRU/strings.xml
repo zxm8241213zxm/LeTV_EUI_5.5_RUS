@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Найти мой телефон</string>
+    <string name="perm_service_bind">Привязать сервис удалённого управления</string>
+    <string name="permdesc_service_bind">Телефон может быть разблокирован с помощью удалённого доступа</string>
+    <string name="perm_service_send_broadcast">Разрешить удалённый контроль</string>
+    <string name="permdesc_service_send_broadcast">Разрешить удалённо блокировать, разблокировать и уничтожать данные</string>
+    <string name="perm_service_broadcast">Разрешить удалённый доступ</string>
+    <string name="permdesc_service_broadcast">Разрешить удалённо блокировать, разблокировать и уничтожать данные</string>
+    <string name="local_page">Телефон заблокирован</string>
+    <string name="subpas">Разблокирован</string>
+    <string name="phone_in_searching_title">Поиск моего телефона......</string>
+    <string name="phone_in_searching_ok">Понятно</string>
+</resources>

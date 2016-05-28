@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">Удалить %1$d изображения</item>
+        <item quantity="zero">Удалить %1$d изображение</item>
+        <item quantity="one">Удалить %1$d изображение</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">Удалить %1$d видео-файлы</item>
+        <item quantity="zero">Удалить %1$d видео-файл</item>
+        <item quantity="one">Удалить %1$d видео-файл</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">Удалить %1$d элементы</item>
+        <item quantity="zero">Удалить %1$d элемент</item>
+        <item quantity="one">Удалить %1$d элемент</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">Удаление изображений из папки Избранное также удалит оригинальные изображения. Если Вы хотите переместить изображение из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d изображения?</item>
+        <item quantity="zero">Удаление изображения из папки Избранное также удалит оригинальное изображение. Если Вы хотите переместить изображение из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d изображение?</item>
+        <item quantity="one">Удаление изображения из папки Избранное также удалит оригинальное изображение. Если Вы хотите переместить изображение из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d изображение?</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">Удаление видео-файлов из папки Избранное также удалит оригинальные видео-файлы. Если Вы хотите переместить видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d видео-файлы?</item>
+        <item quantity="zero">Удаление видео-файлов из папки Избранное также удалит оригинальные видео-файлы. Если Вы хотите переместить видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d видео-файл?</item>
+        <item quantity="one">Удаление видео-файлов из папки Избранное также удалит оригинальные видео-файлы. Если Вы хотите переместить видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d видео-файл?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">Удаление изображений или видео-файлов из папки Избранное также удалит оригинальные файлы. Если Вы хотите переместить изображение или видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d элементы?</item>
+        <item quantity="zero">Удаление изображений или видео-файлов из папки Избранное также удалит оригинальные файлы. Если Вы хотите переместить изображение или видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d элементы?</item>
+        <item quantity="one">Удаление изображений или видео-файлов из папки Избранное также удалит оригинальные файлы. Если Вы хотите переместить изображение или видео-файл из папки Избранное, пожалуйста, используйте обычную папку. Вы уверены, что хотите удалить %1$d элемент?</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">Удалить %1$d изображения</item>
+        <item quantity="zero">Удалить %1$d изображение</item>
+        <item quantity="one">Удалить %1$d изображение</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">Удалить %1$d видео-файлы</item>
+        <item quantity="zero">Удалить %1$d видео-файл</item>
+        <item quantity="one">Удалить %1$d видео-файл</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">Удалить %1$d элементы</item>
+        <item quantity="zero">Удалить %1$d элемент</item>
+        <item quantity="one">Удалить %1$d элемент</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_cloud">
+        <item quantity="other">Если Вы удалите изображение из облачного альбома, то оно также будет удалено на устройстве. Удалить %1$d изображения?</item>
+        <item quantity="zero">Если Вы удалите изображение из облачного альбома, то оно также будет удалено на устройстве. Удалить %1$d изображение?</item>
+        <item quantity="one">Если Вы удалите изображение из облачного альбома, то оно также будет удалено на устройстве. Удалить %1$d изображение?</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_cloud">
+        <item quantity="other">Если Вы удалите видео-файл из облачного альбома, то он также будет удален на устройстве. Удалить %1$d видео-файлы?</item>
+        <item quantity="zero">Если Вы удалите видео-файл из облачного альбома, то он также будет удален на устройстве. Удалить %1$d видео-файл?</item>
+        <item quantity="one">Если Вы удалите видео-файл из облачного альбома, то он также будет удален на устройстве. Удалить %1$d видео-файл?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_cloud">
+        <item quantity="other">Если Вы удалите видео-файл или изображение из облачного альбома, то они также будут удалены на устройстве. Удалить %1$d элементы?</item>
+        <item quantity="zero">Если Вы удалите видео-файл или изображение из облачного альбома, то они также будут удалены на устройстве. Удалить %1$d элемент?</item>
+        <item quantity="one">Если Вы удалите видео-файл или изображение из облачного альбома, то они также будут удалены на устройстве. Удалить %1$d элемент?</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">Удалить %1$d альбомы</item>
+        <item quantity="zero">Удалить %1$d альбом</item>
+        <item quantity="one">Удалить %1$d альбом</item>
+    </plurals>
+    <plurals name="delete_selection">
+        <item quantity="other">Удалить выбранный материал?</item>
+        <item quantity="one">Удалить выбранный материал?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d предметов выделено</item>
+        <item quantity="zero">%1$d предмет выделен</item>
+        <item quantity="one">%1$d предмет выделен</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d альбомы выделены</item>
+        <item quantity="zero">%1$d альбом выделен</item>
+        <item quantity="one">%1$d альбом выделен</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d группы выделены</item>
+        <item quantity="zero">%1$d группа выделена</item>
+        <item quantity="one">%1$d группа выделена</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Сделать альбомы доступными в оффлайне</item>
+        <item quantity="one">Сделать альбом доступным в оффлайне</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Просканированно %1$d предметов</item>
+        <item quantity="zero">Просканированно %1$d предмет</item>
+        <item quantity="one">Просканированно %1$d предмет</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">1 сек.</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d картинок</item>
+        <item quantity="one">%1$d картинок</item>
+    </plurals>
+</resources>

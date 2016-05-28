@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_item_xliff">
+        <item quantity="other">%d предметов выбрано</item>
+        <item quantity="one">%d предмет выбран</item>
+    </plurals>
+    <plurals name="delete_record_dialog_title">
+        <item quantity="other">Удалить %d записей</item>
+        <item quantity="one">Удалить %d запись</item>
+    </plurals>
+</resources>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Лучшие песни</item>
+        <item>Музыкальные альбомы</item>
+        <item>Похожие исполнители</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="player">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Спортивные новости</item>
+        <item>Обои</item>
+        <item>Нет</item>
+        <item>Музыкальные альбомы</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Саундтреки</item>
+        <item>Нет</item>
+        <item>Похожие исполнители</item>
+        <item>Нет</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="team">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Свежие новости</item>
+        <item>Обои</item>
+        <item>Похожая музыка</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Нет</item>
+        <item>Новости брендов</item>
+        <item>Обои</item>
+        <item>Обложка</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="region">
+        <item>Нет</item>
+        <item>Похожие видео</item>
+        <item>Обои</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Уведомление</item>
+        <item>Электронная почта</item>
+        <item>Сообщения</item>
+        <item>Будильник</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Нет</item>
+        <item>Во время события</item>
+        <item>за 5 минут</item>
+        <item>за 10 минут</item>
+        <item>за 30 минут</item>
+        <item>за 1 час</item>
+        <item>за 2 часа</item>
+        <item>за 1 день</item>
+        <item>за 2 дня</item>
+        <item>за 1 неделю</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>Нет</item>
+        <item>День (9:00)</item>
+        <item>За день (9:00)</item>
+        <item>За 2 дня (9:00)</item>
+        <item>За неделю (9:00)</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Нет</item>
+        <item>Во время события</item>
+        <item>за 5 минут</item>
+        <item>за 10 минут</item>
+        <item>за 30 минут</item>
+        <item>за 1 час</item>
+        <item>за 2 часа</item>
+        <item>за 1 день</item>
+        <item>за 2 дня</item>
+        <item>за 1 неделю</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Настройки по умолчанию для выбора языка и региона</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Занят</item>
+        <item>Доступен</item>
+        <item>Предварительный</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>По умолчанию</item>
+        <item>Частный</item>
+        <item>Публичный</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>Первый</item>
+        <item>Второй</item>
+        <item>Третий</item>
+        <item>Четвертый</item>
+        <item>Последний</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Не отвечает</item>
+        <item>Да</item>
+        <item>Может быть</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Удалить это событие</item>
+        <item>Удалить это событие и будущие события</item>
+        <item>Удалить все события</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Это событие и будущие события</item>
+        <item>Все события</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Только это событие</item>
+        <item>Все повторяющиеся события</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Повестка дня</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Только когда вы не используете</item>
+        <item>Когда вы не используете или не отвечаете</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ЕЖЕДНЕВНО</item>
+        <item>ЕЖЕНЕДЕЛЬНО</item>
+        <item>ЕЖЕМЕСЯЧНО</item>
+        <item>ЕЖЕГОДНО</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>Первое воскресенье</item>
+        <item>Второе воскресенье</item>
+        <item>Третье воскресенье</item>
+        <item>Четвертое воскресенье</item>
+        <item>Последнее воскресенье</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>Первый понедельник</item>
+        <item>Второй понедельник</item>
+        <item>Третий понедельник</item>
+        <item>Четвертый понедельник</item>
+        <item>Последний понедельник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>Первый вторник</item>
+        <item>Второй вторник</item>
+        <item>Третий вторник</item>
+        <item>Четвертый вторник</item>
+        <item>Последний вторник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>Первая среда</item>
+        <item>Вторая среда</item>
+        <item>Третья среда</item>
+        <item>Четвертая среда</item>
+        <item>Последняя среда</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>Первый четверг</item>
+        <item>Второй четверг</item>
+        <item>Третий четверг</item>
+        <item>Четвертый четверг</item>
+        <item>Последний четверг</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>Первая пятница</item>
+        <item>Вторая пятница</item>
+        <item>Третья пятница</item>
+        <item>Четвертая пятница</item>
+        <item>Последняя пятница</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>Первая суббота</item>
+        <item>Вторая суббота</item>
+        <item>Третья суббота</item>
+        <item>Четвертая суббота</item>
+        <item>Последняя суббота</item>
+    </string-array>
+    <string-array name="day_of_weekly">
+        <item>Каждое воскресенье</item>
+        <item>Каждый понедельник</item>
+        <item>Каждый вторник</item>
+        <item>Каждую среду</item>
+        <item>Каждый четверг</item>
+        <item>Каждую пятницу</item>
+        <item>Каждую субботу</item>
+    </string-array>
+    <string-array name="rrule_type">
+        <item>Единовременное событие</item>
+        <item>Каждый день</item>
+        <item>Рабочие дни (понедельник-пятница)</item>
+        <item></item>
+        <item>Ежемесячно</item>
+        <item>Ежемесячно</item>
+        <item>Ежегодно</item>
+    </string-array>
+    <string-array name="lunar_rrule_type">
+        <item>Единовременное событие</item>
+        <item>Каждый лунный месяц</item>
+        <item>Каждый лунный год</item>
+    </string-array>
+    <string-array name="dropdown_list">
+        <item>Все события</item>
+        <item>Собственный список дел</item>
+        <item>Приглашения</item>
+    </string-array>
+    <string-array name="recently_tab_names">
+        <item>Динамический обзор</item>
+        <item>Динамический просмотр</item>
+    </string-array>
+    <string-array name="event_types">
+        <item>Неизвестный</item>
+        <item>Спорт</item>
+        <item>Путешествие</item>
+        <item>День рождения</item>
+        <item>Эстрада</item>
+        <item>Сериалы</item>
+        <item>Мультипликация</item>
+        <item>Кино</item>
+        <item>Развлекательные мероприятия</item>
+        <item>Letv фильмы</item>
+        <item>Концерт</item>
+    </string-array>
+    <string-array name="game_states">
+        <item>Не запущено</item>
+        <item>В процессе</item>
+        <item>Окончено</item>
+    </string-array>
+    <string-array name="chineseten">
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="gan">
+        <item>Цзя</item>
+        <item>И</item>
+        <item>Бин</item>
+        <item>Дин</item>
+        <item>У</item>
+        <item>Цзи</item>
+        <item>Гэн</item>
+        <item>Синь</item>
+        <item>Жэнь</item>
+        <item>Гуй</item>
+    </string-array>
+    <string-array name="lunar_festival">
+        <item>Канун китайского Нового года</item>
+        <item>Канун китайского Нового года</item>
+        <item>Праздник Весны</item>
+        <item>Праздник Дракона</item>
+        <item>Праздник фонарей</item>
+        <item>Праздник драконьих лодок</item>
+        <item>Праздник влюбленных</item>
+        <item>День поминовения усопших</item>
+        <item>Праздник середины осени</item>
+        <item>Праздник двойной девятки</item>
+        <item>Фестиваль Лаба</item>
+        <item>День зимнего солнцестояния</item>
+    </string-array>
+    <string-array name="animals">
+        <item>Крыса</item>
+        <item>Бык</item>
+        <item>Тигр</item>
+        <item>Кролик</item>
+        <item>Дракон</item>
+        <item>Змея</item>
+        <item>Лошадь</item>
+        <item>Козел</item>
+        <item>Обезьяна</item>
+        <item>Петух</item>
+        <item>Собака</item>
+        <item>Свинья</item>
+    </string-array>
+    <string-array name="chinesenumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="lunar_month_name">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="zhi">
+        <item>Цзы</item>
+        <item>Чоу</item>
+        <item>Инь</item>
+        <item>Мао</item>
+        <item>Чэнь</item>
+        <item>Сы</item>
+        <item>У</item>
+        <item>Вэй</item>
+        <item>Шэнь</item>
+        <item>Ю</item>
+        <item>Сюй</item>
+        <item>Хай</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Я задержусь на несколько минут.</item>
+        <item>Я буду там через 10 минут.</item>
+        <item>Не ждите, начинайте без меня.</item>
+        <item>Извини, я не смогу прийти. Давай встретимся в другой раз.</item>
+    </string-array>
+    <string-array name="live_event_types">
+        <item>Спорт в прямом эфире</item>
+        <item>Развлекательные программы</item>
+        <item>Живая музыка</item>
+        <item>Другие программы в прямом эфире</item>
+        <item>Документальные фильмы</item>
+        <item>Фильмы</item>
+    </string-array>
+</resources>

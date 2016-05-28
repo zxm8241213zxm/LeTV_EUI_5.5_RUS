@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компас</string>
+    <string name="defalut_orientation">Ориентировка</string>
+    <string name="defalut_orientation_degree">90</string>
+    <string name="format_coordinate" formatted="false">"%s %d° %d' %d\" %3s %d° %d' %d\""</string>
+    <string name="cancel">Отмена</string>
+    <string name="calibrate">калибровать</string>
+    <string name="defalut_orientation_degree_symbol">o</string>
+    <string name="orientation_0">0</string>
+    <string name="orientation_90">90</string>
+    <string name="orientation_180">180</string>
+    <string name="orientation_270">270</string>
+    <string name="calibrate_message">Наклоните телефон, чтобы красный шар двигался по кругу</string>
+    <string name="open_netorgps_get_position">Включите передачу данных, чтобы получить координаты и информацию о местоположении</string>
+    <string name="open_net_get_address">Включите передачу данных, чтобы узнать местоположение</string>
+    <string name="low_accuracy_hint">Низкая точность, пожалуйста избегайте помех и перекалибруйте</string>
+    <string name="follow_refer_complete_calibrate">"Пожалуйста, избегайте магнитных излучений 
+ и вернитесь к инструкции, чтобы закончить калибровку компаса"</string>
+    <string name="open_gps_get_accurate">Включите GPS, чтобы получить точные координаты</string>
+    <string name="acquiring_location">Получение местоположения</string>
+    <string name="power_assistant_hint">Не удалось определить местоположение, пожалуйста, отключите энергосберегающий режим и повторите снова</string>
+</resources>

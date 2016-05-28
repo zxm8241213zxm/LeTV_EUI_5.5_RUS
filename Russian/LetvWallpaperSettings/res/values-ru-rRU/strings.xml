@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="leui_wallpaper_setting_preferences">Системные обои</string>
+    <string name="application_name">Настройки обоев</string>
+    <string name="gallery_wallpaper">Галерея</string>
+    <string name="live_wallpaper">Живые обои</string>
+    <string name="static_wallpaper">Статичные обои</string>
+    <string name="activity_not_found">Приложение не установлено</string>
+    <string name="bottom_cancel_text">Отмена</string>
+    <string name="bottom_ok_text">Установить как</string>
+    <string name="third_wallpaper">Иные источники обоев</string>
+    <string name="other_wallpapers">Прочие</string>
+    <string name="not_support_format">Формат данного файла не подходит для обоев</string>
+    <string name="set_wallpaper_success">Успешно установлено в качестве обоев</string>
+    <string name="set_wallpaper_failure">Не удалось установить в качестве обоев</string>
+    <string name="state_setting_as_wallpaper">Установить как обои</string>
+    <string name="all_selection">Всe обои</string>
+    <string name="eui_selection">EUI коллекция</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register_success">Зарегистрирован!</string>
+    <string name="decode_error">Ошибка декодирования, зарегистрировать не удалось!</string>
+    <string name="check_error">Ошибка проверки, зарегистрировать не удалось!</string>
+    <string name="register_failed">Зарегистрировать не удалось!</string>
+    <string name="already_registered">Уже зарегистрирован, пропущено!</string>
+</resources>

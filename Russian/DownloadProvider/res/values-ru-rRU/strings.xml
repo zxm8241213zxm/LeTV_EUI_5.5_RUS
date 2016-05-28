@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Менеджер Загрузок</string>
+    <string name="permlab_downloadManager">Доступ к Менеджеру Загрузок</string>
+    <string name="permdesc_downloadManager">Разрешить этому приложению использовать Менеджер Загрузок и загрузить файлы через него. Вредоносные приложения могут воспользоваться этим для прерывания загрузки и доступа к личной информации.</string>
+    <string name="permlab_downloadManagerAdvanced">Расширенные возможности Менеджера Загрузок</string>
+    <string name="permdesc_downloadManagerAdvanced">Разрешить этому приложению использовать расширенные возможности Менеджер Загрузок. Вредоносные приложения могут воспользоваться этим для прерывания загрузки и доступа к личной информации.</string>
+    <string name="permlab_downloadCompletedIntent">Отправлять уведомления загрузки</string>
+    <string name="permdesc_downloadCompletedIntent">Разрешить этому приложению отправлять уведомления, когда загрузка завершена. Вредоносные приложения могут воспользоваться этим, чтобы замаскироваться под другие приложения, которые загружаются.</string>
+    <string name="permlab_seeAllExternal">Просмотр всех загрузок, сохраненных на USB-устройстве</string>
+    <string name="permdesc_seeAllExternal">"Разрешить этому приложению просмотр всего содержимого, загружаемого на SD-карту (вне зависимости от приложения, используемого для загрузки). "</string>
+    <string name="permlab_downloadCacheNonPurgeable">Сохранить место в кэше загрузок</string>
+    <string name="permdesc_downloadCacheNonPurgeable">"Разрешить этому приложению загружать файлы в кэш загрузки (система не будет автоматически удалять содержимое в кэше загрузки, т.к. Менеджеру Загрузок требуется больше места). "</string>
+    <string name="permlab_downloadWithoutNotification">Скачать файлы напрямую и не отображать уведомления</string>
+    <string name="permdesc_downloadWithoutNotification">Разрешить этому приложению загружать файлы через Менеджер Загрузок без отображения пользователю каких-либо уведомлений.</string>
+    <string name="permlab_accessAllDownloads">Доступ ко всем системным загрузкам</string>
+    <string name="permdesc_accessAllDownloads">Разрешить этому приложению просматривать и изменять все содержимое загруженное любым приложением в вашей системе.</string>
+    <string name="download_unknown_title">(Без названия)</string>
+    <string name="notification_download_complete">Загрузка завершена</string>
+    <string name="notification_download_failed">Ошибка загрузки</string>
+    <string name="notification_need_wifi_for_size">Файл слишком большой. Вам необходимо скачать его по Wi-Fi сети.</string>
+    <string name="notification_paused_in_background">На паузе в фоновом режиме</string>
+    <string name="wifi_required_title">Файл слишком большой и не подходит для загрузки через сотовую сеть.</string>
+    <string name="wifi_required_body" formatted="false">"Вам нужно подключиться к Wi-Fi сети, чтобы скачать этот файл (%s).
+
+Нажмите %s, чтобы загрузить его в следующий раз, когда вы подключаетесь к Wi-Fi сети."</string>
+    <string name="wifi_recommended_title">Добавить в очередь позже?</string>
+    <string name="wifi_recommended_body" formatted="false">"Загрузка этого файла (%s) сейчас может привести к разрядке батареи и/или к чрезмерному использованию мобильных данных (за которые ваш оператор может взимать плату в зависимости от вашего тарифного плана).
+
+Нажмите %s, чтобы загрузить его в следующий раз, когда вы подключаетесь к Wi-Fi сети."</string>
+    <string name="button_queue_for_wifi">Очередь</string>
+    <string name="button_cancel_download">Отмена</string>
+    <string name="button_start_now">Начать</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_remaining">Оставшееся время: %s</string>
+    <string name="download_no_application_title">Невозможно открыть файл</string>
+    <string name="root_downloads">Загрузить</string>
+    <string name="download_queued">Добавлено в очередь</string>
+    <string name="download_running">Загрузка</string>
+    <string name="download_error">Сбой</string>
+    <string name="download_running_percent">Загрузка: %d%%</string>
+    <string name="download_notification_pause">Пауза</string>
+    <string name="download_file_save_toast">Файл сохранен: %1$s</string>
+    <string name="download_pause_notification_tip">%1$s - загрузка остановлена</string>
+    <string name="download_storage_insufficient_dialog_content">Файл не может быть загружен. Пожалуйста, освободите немного места и попробуй снова.</string>
+    <string name="download_storage_insufficient_dialog_negative_button">Отмена</string>
+    <string name="download_storage_insufficient_dialog_positive_button">Очистить</string>
+    <string name="le_notification_download_complete_cmcc">Файл загружен в:</string>
+    <string name="le_download_confirm_dialog_positive">Загрузить</string>
+    <string name="le_download_confirm_dialog_negative">Отмена</string>
+    <string name="le_download_confirm_dialog_filename">Название файла: %1$s</string>
+    <string name="le_download_confirm_dialog_filesize">Размер файла: %1$s</string>
+    <string name="le_download_confirm_dialog_savepath">Каталог загрузки: %1$s</string>
+    <string name="le_download_confirm_dialog_unknow_size">Неизвестно</string>
+</resources>

@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week_simple">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="days_of_week_trend_bitmap">
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Вчера</item>
+        <item>Сегодня</item>
+    </string-array>
+    <string-array name="hot_chn_citys_code">
+        <item>CHXX0008</item>
+        <item>CHXX0116</item>
+        <item>CHXX0037</item>
+        <item>CHXX0120</item>
+        <item>CHXX0138</item>
+        <item>CHXX0099</item>
+        <item>CHXX0141</item>
+        <item>CHXX0016</item>
+        <item>CHXX0044</item>
+        <item>CHXX0165</item>
+        <item>CHXX0017</item>
+        <item>CHXX0119</item>
+        <item>CHXX0046</item>
+        <item>CHXX0013</item>
+        <item>WMXX1007</item>
+        <item>CHXX0019</item>
+        <item>CHXX0140</item>
+        <item>CHXX0507</item>
+        <item>CHXX0133</item>
+        <item>WMXX1016</item>
+        <item>WMXX1009</item>
+        <item>CHXX0049</item>
+        <item>CHXX0512</item>
+        <item>TWXX0021</item>
+        <item>USNY0996</item>
+        <item>JAXX0085</item>
+        <item>KSXX0037</item>
+        <item>FRXX0076</item>
+    </string-array>
+    <string-array name="hot_chn_citys_str">
+        <item>Пекин</item>
+        <item>Шанхай</item>
+        <item>Гуанчжоу</item>
+        <item>Шэньчжэнь</item>
+        <item>Ухань</item>
+        <item>Нанкин</item>
+        <item>Сиань</item>
+        <item>Чэнду</item>
+        <item>Ханчжоу</item>
+        <item>Чжэнчжоу</item>
+        <item>Чунцин</item>
+        <item>Шэньян</item>
+        <item>Харбин</item>
+        <item>Чанша</item>
+        <item>Сучжоу</item>
+        <item>Далянь</item>
+        <item>Сямэнь</item>
+        <item>Санья</item>
+        <item>Тяньцзинь</item>
+        <item>Нинбо</item>
+        <item>Уси</item>
+        <item>Гонконг</item>
+        <item>Макао</item>
+        <item>Тайбэй</item>
+        <item>Нью-Йорк</item>
+        <item>Токио</item>
+        <item>Сеул</item>
+        <item>Париж</item>
+    </string-array>
+    <string-array name="hot_int_citys_code">
+        <item>JAXX0085</item>
+        <item>THXX0002</item>
+        <item>KSXX0037</item>
+        <item>SNXX0006</item>
+        <item>QAXX0003</item>
+        <item>IZXX0008</item>
+        <item>FRXX0076</item>
+        <item>RSXX0063</item>
+        <item>ITXX0042</item>
+        <item>GRXX0004</item>
+        <item>ITXX0085</item>
+        <item>GMXX0096</item>
+        <item>GMXX0007</item>
+        <item>PLXX0028</item>
+        <item>AUXX0025</item>
+        <item>UKXX0085</item>
+        <item>USNY0996</item>
+        <item>USDC0001</item>
+        <item>EIXX0014</item>
+        <item>CAXX0343</item>
+        <item>USCA0987</item>
+        <item>CAXX0504</item>
+        <item>CAXX0518</item>
+        <item>MXQR0138</item>
+        <item>EGXX0004</item>
+        <item>SGXX0001</item>
+        <item>ASXX0112</item>
+        <item>Подробнее</item>
+    </string-array>
+    <string-array name="hot_int_citys_str">
+        <item>Токио</item>
+        <item>Бангкок</item>
+        <item>Сеул</item>
+        <item>Сингапур</item>
+        <item>Доха</item>
+        <item>Багдад</item>
+        <item>Париж</item>
+        <item>Москва</item>
+        <item>Милан</item>
+        <item>Афины</item>
+        <item>Венеция</item>
+        <item>Нюрнберг</item>
+        <item>Берлин</item>
+        <item>Варшава</item>
+        <item>Вена</item>
+        <item>Лондон</item>
+        <item>Нью-Йорк</item>
+        <item>Вашингтон</item>
+        <item>Дублин</item>
+        <item>Оттава</item>
+        <item>Сан - Франциско</item>
+        <item>Торонто</item>
+        <item>Ванкувер</item>
+        <item>Канкун</item>
+        <item>Каир</item>
+        <item>Дакар</item>
+        <item>Сидней</item>
+        <item>Подробнее</item>
+    </string-array>
+    <string-array name="wi_strs">
+        <item>торнадо</item>
+        <item>Тропический шторм</item>
+        <item>ураган</item>
+        <item>Сильные грозы</item>
+        <item>гроза</item>
+        <item>дождь со снегом</item>
+        <item>Дождь с капельками льда</item>
+        <item>Дождь с капельками льда</item>
+        <item>Небольшой мокрый снег</item>
+        <item>изморось</item>
+        <item>дождь со снегом</item>
+        <item>изморось</item>
+        <item>дождь</item>
+        <item>сильный снегопад</item>
+        <item>снег</item>
+        <item>метель</item>
+        <item>снег</item>
+        <item>Град</item>
+        <item>дождь со снегом</item>
+        <item>пыль</item>
+        <item>туман</item>
+        <item>дымка</item>
+        <item>дым</item>
+        <item>Буря</item>
+        <item>ветер</item>
+        <item>холод</item>
+        <item>Инь</item>
+        <item>облачно</item>
+        <item>облачно</item>
+        <item>Шаоян</item>
+        <item>Шаоян</item>
+        <item>солнечно</item>
+        <item>солнечно</item>
+        <item>солнечно</item>
+        <item>солнечно</item>
+        <item>дождь с градом</item>
+        <item>Жарко</item>
+        <item>Локальные грозы</item>
+        <item>Переменная гроза</item>
+        <item>ливень</item>
+        <item>Переменная облачность</item>
+        <item>снег</item>
+        <item>Переменный снег с дождем</item>
+        <item>снег</item>
+        <item>Шаоян</item>
+        <item>Грозы</item>
+        <item>сильный снегопад</item>
+        <item>Местные грозы</item>
+        <item>Погода не известна</item>
+        <item>Погодные условия неизвестны</item>
+    </string-array>
+    <string-array name="all_background">
+        <item>main_bg_3</item>
+        <item>main_bg_3</item>
+        <item>main_bg_3</item>
+        <item>main_bg_9</item>
+        <item>main_bg_9</item>
+        <item>main_bg_6</item>
+        <item>main_bg_10</item>
+        <item>main_bg_6</item>
+        <item>main_bg_10</item>
+        <item>main_bg_10</item>
+        <item>main_bg_10</item>
+        <item>main_bg_10</item>
+        <item>main_bg_10</item>
+        <item>main_bg_6</item>
+        <item>main_bg_6</item>
+        <item>main_bg_6</item>
+        <item>main_bg_6</item>
+        <item>main_bg_10</item>
+        <item>main_bg_6</item>
+        <item>main_bg_4</item>
+        <item>main_bg_5</item>
+        <item>main_bg_4</item>
+        <item>main_bg_4</item>
+        <item>main_bg_3</item>
+        <item>main_bg_3</item>
+        <item>main_bg_3</item>
+        <item>main_bg_3</item>
+        <item>main_bg_7</item>
+        <item>main_bg_2</item>
+        <item>main_bg_7</item>
+        <item>main_bg_2</item>
+        <item>main_bg_8</item>
+        <item>main_bg_1</item>
+        <item>main_bg_8</item>
+        <item>main_bg_1</item>
+        <item>main_bg_10</item>
+        <item>main_bg_1</item>
+        <item>main_bg_9</item>
+        <item>main_bg_9</item>
+        <item>main_bg_10</item>
+        <item>main_bg_10</item>
+        <item>main_bg_6</item>
+        <item>main_bg_6</item>
+        <item>main_bg_6</item>
+        <item>main_bg_2</item>
+        <item>main_bg_9</item>
+        <item>main_bg_6</item>
+        <item>main_bg_9</item>
+        <item>main_bg_1</item>
+        <item>main_bg_1</item>
+    </string-array>
+    <string-array name="angle">
+        <item>53,90,128,165,15</item>
+        <item>22,67,112,157,0</item>
+        <item>22,67,112,157,0</item>
+        <item>22,67,112,157,0</item>
+        <item>22,67,112,157,0</item>
+        <item>22,67,112,157,0</item>
+        <item>22,67,112,157,0</item>
+        <item>0,30,90,150,0</item>
+        <item>0,30,90,150,0</item>
+        <item>0,30,90,150,0</item>
+        <item>0,30,90,150,0</item>
+        <item>0,0,45,135,0</item>
+        <item>0,0,45,135,0</item>
+        <item>30,90,150,0,0</item>
+        <item>0,45,135,0,0</item>
+    </string-array>
+    <string-array name="animation_background_animation_cfg">
+        <item>anim/anim3</item>
+        <item>anim/anim3</item>
+        <item>anim/anim3</item>
+        <item>anim/anim9</item>
+        <item>anim/anim9</item>
+        <item>anim/anim6</item>
+        <item>anim/anim10</item>
+        <item>anim/anim6</item>
+        <item>anim/anim10</item>
+        <item>anim/anim10</item>
+        <item>anim/anim10</item>
+        <item>anim/anim10</item>
+        <item>anim/anim10</item>
+        <item>anim/anim6</item>
+        <item>anim/anim6</item>
+        <item>anim/anim6</item>
+        <item>anim/anim6</item>
+        <item>anim/anim10</item>
+        <item>anim/anim6</item>
+        <item>anim/anim4</item>
+        <item>anim/anim5</item>
+        <item>anim/anim4</item>
+        <item>anim/anim4</item>
+        <item>anim/anim3</item>
+        <item>anim/anim3</item>
+        <item>anim/anim3</item>
+        <item>anim/anim3</item>
+        <item>anim/anim7</item>
+        <item>anim/anim2</item>
+        <item>anim/anim7</item>
+        <item>anim/anim2</item>
+        <item>anim/anim8</item>
+        <item>anim/anim1</item>
+        <item>anim/anim8</item>
+        <item>anim/anim1</item>
+        <item>anim/anim10</item>
+        <item>anim/anim1</item>
+        <item>anim/anim9</item>
+        <item>anim/anim9</item>
+        <item>anim/anim10</item>
+        <item>anim/anim10</item>
+        <item>anim/anim6</item>
+        <item>anim/anim6</item>
+        <item>anim/anim6</item>
+        <item>anim/anim2</item>
+        <item>anim/anim9</item>
+        <item>anim/anim6</item>
+        <item>anim/anim9</item>
+        <item>anim/anim1</item>
+        <item>anim/anim1</item>
+    </string-array>
+    <string-array name="animation_default_background">
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_4</item>
+        <item>animation_main_bg_5</item>
+        <item>animation_main_bg_4</item>
+        <item>animation_main_bg_4</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_3</item>
+        <item>animation_main_bg_7</item>
+        <item>animation_main_bg_2</item>
+        <item>animation_main_bg_7</item>
+        <item>animation_main_bg_2</item>
+        <item>animation_main_bg_8</item>
+        <item>animation_main_bg_1</item>
+        <item>animation_main_bg_8</item>
+        <item>animation_main_bg_1</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_1</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_10</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_2</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_6</item>
+        <item>animation_main_bg_9</item>
+        <item>animation_main_bg_1</item>
+        <item>animation_main_bg_1</item>
+    </string-array>
+    <string-array name="baoxue">
+        <item>12小时内降雪量将达4毫米以上，或已达4毫米以上且降雪持续，可能对交通或者农牧业有影响。</item>
+        <item>12小时内降雪量将达6毫米以上，或已达6毫米以上且降雪持续，可能对交通或者农牧业有影响。</item>
+        <item>6小时内降雪量将达10毫米以上，或已达10毫米以上且降雪持续，可能已经对交通或农牧业有较大影响。</item>
+        <item>6小时内降雪量将达15毫米以上，或已达15毫米以上且降雪持续，可能已经对交通或农牧业有较大影响。</item>
+        <item></item>
+    </string-array>
+    <string-array name="baoyu">
+        <item>12小时内降雨量将达50毫米以上，或已达50毫米以上且降雨可能持续。</item>
+        <item>6小时内降雨量将达50毫米以上，或已达50毫米以上且降雨可能持续。</item>
+        <item>3小时内降雨量将达50毫米以上，或已达50毫米以上且降雨可能持续。</item>
+        <item>3小时内降雨量将达100毫米以上，或已达100毫米以上且降雨可能持续。</item>
+        <item></item>
+    </string-array>
+    <string-array name="binbao">
+        <item></item>
+        <item></item>
+        <item>6小时内可能出现冰雹天气，并可能造成雹灾。</item>
+        <item>2小时内出现冰雹可能性极大，并可能造成重雹灾。</item>
+        <item></item>
+    </string-array>
+    <string-array name="brief_days_of_week">
+        <item>Япония</item>
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+        <item>четыре</item>
+        <item>пять</item>
+        <item>шесть</item>
+    </string-array>
+    <string-array name="brief_days_of_week_en">
+        <item>Вс.</item>
+        <item>Пн.</item>
+        <item>Вт.</item>
+        <item>Ср.</item>
+        <item>Чт.</item>
+        <item>Пт.</item>
+        <item>Сб.</item>
+    </string-array>
+    <string-array name="brief_month_of_year_en">
+        <item>Янв.</item>
+        <item>Фев.</item>
+        <item>Мар.</item>
+        <item>Апр.</item>
+        <item>Мая.</item>
+        <item>Июн.</item>
+        <item>Июл.</item>
+        <item>Авг.</item>
+        <item>Сен.</item>
+        <item>Окт.</item>
+        <item>Ноя.</item>
+        <item>Дек.</item>
+    </string-array>
+    <string-array name="chinese_days">
+        <item>Первый день</item>
+        <item>Два дня</item>
+        <item>Три дня</item>
+        <item>Четвертый день</item>
+        <item>Пятый</item>
+        <item>Шестой</item>
+        <item>Седьмой</item>
+        <item>Восьмой</item>
+        <item>Девятый</item>
+        <item>Десятый</item>
+        <item>Одиннадцать</item>
+        <item>Двенадцать</item>
+        <item>Тринадцать</item>
+        <item>Четырнадцать</item>
+        <item>Пятнадцать</item>
+        <item>Шестнадцать</item>
+        <item>Семьнадцать</item>
+        <item>Восемнадцать</item>
+        <item>Девятнадцать</item>
+        <item>Двадцать</item>
+        <item>Двадцать один</item>
+        <item>Двадцать два</item>
+        <item>Двадцать три</item>
+        <item>Двадцать четыре</item>
+        <item>Двадцать пять</item>
+        <item>Двадцать шесть</item>
+        <item>Двадцать семь</item>
+        <item>Двадцать восемь</item>
+        <item>Двадцать девят</item>
+        <item>Тридцать</item>
+    </string-array>
+    <string-array name="chinese_festival_name">
+        <item></item>
+        <item></item>
+        <item>канун Нового года</item>
+        <item>Китайский Новый год</item>
+        <item>Фестиваль Фонарей</item>
+        <item>Праздник лодок-драконов</item>
+        <item>Танабата</item>
+        <item>Фестиваль голодные Духи</item>
+        <item></item>
+        <item>Праздник середины осени</item>
+        <item>Чунъян фестиваль</item>
+        <item>Лаба</item>
+        <item>Лаба</item>
+    </string-array>
+    <string-array name="chinese_festival_notification">
+        <item>Еще пятнадцать дней будет Китайский Новый Год! Не забудьте заказать билеты домой!</item>
+        <item>После завтра Новогодний Год!</item>
+        <item>Сегодня Новый год, и я желаю вам быть здоровым и счастливым.</item>
+        <item>Новый год пришел, команда погоды Сина желает вам крепкого здоровья, счастливой семьи, новый год!</item>
+        <item>Сегодня Праздник фонарей! Вы едите на праздник?</item>
+        <item>Сегодня Праздник лодок-драконов! Вы еще едите пельмени?</item>
+        <item>Фестиваль Танабата в, я хотел бы, чтобы люди в мире женились!</item>
+        <item>Сегодня фестиваль Голодный Дух!</item>
+        <item>Послезавтра Праздник середины осени!</item>
+        <item>Сегодня праздник Середины осени! Вы ели лунный пирог?</item>
+        <item>Сегодня Праздник двойной девятки! Вынаправили всем старейшинам теплое приветствие?</item>
+        <item>Сегодня фестиваль Лаба! Вы пьете рисовую кашу?</item>
+        <item>Сегодня фестиваль Лаба! Вы пьете рисовую кашу?</item>
+    </string-array>
+    <string-array name="chinese_months">
+        <item>Месяц</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Зимние месяцы</item>
+        <item>Двенадцатый лунный месяц</item>
+    </string-array>
+    <string-array name="chinese_zodiacs">
+        <item>Мышь</item>
+        <item>Корова</item>
+        <item>Тигр</item>
+        <item>Кролик</item>
+        <item>Дракон</item>
+        <item>Змея</item>
+        <item>Лошадь</item>
+        <item>Овца</item>
+        <item>Обезьяна</item>
+        <item>Курица</item>
+        <item>Собака</item>
+        <item>Свинья</item>
+    </string-array>
+    <string-array name="dafen">
+        <item>Или были затронуты сильными ветрами может означать ветра от 6 до 7, или порыв 7 до 8 в течение 24 часов, и, скорее всего, продолжится.</item>
+        <item>Или, возможно, был подвержен воздействию сильных ветров в течение 12 часов, средняя скорость ветра до 8 до 9 или от 9 до 10 порывов, и, скорее всего, продолжится.</item>
+        <item>Может были затронуты сильными ветрами или средней ветра до 10 ~ 11, или порывов от 11 до 12 в течение шести часов, и, скорее всего, продолжится.</item>
+        <item>Или, возможно, были затронуты влиянием ветра в течение шести часов, со средней скоростью ветра до 12 или выше 13 порывов, и может продолжаться.</item>
+        <item></item>
+    </string-array>
+    <string-array name="daolujiebin">
+        <item></item>
+        <item>当路表温度低于0℃，出现降水，12小时内可能出现对交通有影响的道路结冰。</item>
+        <item>当路表温度低于0℃，出现降水，6小时内可能出现对交通有较大影响的道路结冰。</item>
+        <item>当路表温度低于0℃，出现降水，2小时内可能出现或者已经出现对交通有很大影响的道路结冰。</item>
+        <item></item>
+    </string-array>
+    <string-array name="dawu">
+        <item>12小时内可能出现能见度小于1000米的雾，或已经出现能见度小于1000米、大于等于500米的雾并将持续。</item>
+        <item>12小时内可能出现能见度小于500米的雾，或已经出现能见度小于500米、大于等于200米的雾并将持续。</item>
+        <item>6小时内可能出现能见度小于200米的雾，或已经出现能见度小于200米、大于等于50米的雾并将持续。</item>
+        <item>2小时内可能出现能见度小于50米的雾，或已经出现能见度小于50米的雾并将持续。</item>
+        <item></item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="days_of_week_en">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <array name="des_str">
+        <item>@array/taifen</item>
+        <item>@array/baoyu</item>
+        <item>@array/baoxue</item>
+        <item>@array/hanchao</item>
+        <item>@array/dafen</item>
+        <item>@array/dawu</item>
+        <item>@array/weizhi</item>
+        <item>@array/shachengbao</item>
+        <item>@array/gaowen</item>
+        <item>@array/leidian</item>
+        <item>@array/daolujiebin</item>
+        <item>@array/ganhan</item>
+        <item>@array/binbao</item>
+        <item>@array/shuangdong</item>
+        <item>@array/mai</item>
+    </array>
+    <string-array name="earthly_branches">
+        <item>Ребенок</item>
+        <item>уродливый</item>
+        <item>Инь</item>
+        <item>D</item>
+        <item>Чэнь</item>
+        <item>Пэт</item>
+        <item>Полдень</item>
+        <item>нет</item>
+        <item>Шен</item>
+        <item>унитарный</item>
+        <item>Ксу</item>
+        <item>Хай</item>
+    </string-array>
+    <string-array name="ganhan">
+        <item></item>
+        <item></item>
+        <item>Integrated meteorological drought index is expected next week of severe drought (meteorological drought of 25 to 50 years), or the county (district) more than 40% of crops affected by drought.</item>
+        <item>The next week, Dart integrated meteorological drought index drought (meteorological drought in more than 50 years), or the county (district) more than 60% of crops affected by drought</item>
+        <item></item>
+    </string-array>
+    <string-array name="gaowen">
+        <item></item>
+        <item>Три следующих дня, максимальная температура будет выше 35 ℃.</item>
+        <item>В течение 24 часов Максимальная температура поднимется выше 37 ℃.</item>
+        <item>В течение 24 часов Максимальная температура поднимется выше 40 ℃.</item>
+        <item></item>
+    </string-array>
+    <string-array name="hanchao">
+        <item>Within 48 hours or minimum temperature may have dropped more than 8 ℃, the minimum temperature is less than equal to 4 ℃, land mean wind up 5; and sustainable.</item>
+        <item>Within 24 hours or minimum temperature may have dropped more than 10 ℃, the lowest temperature of less than or equal 4 ℃, land mean wind of more than 6; and sustainable.</item>
+        <item>Within 24 hours or minimum temperature may have dropped more than 12 ℃, the minimum temperature is less than equal to 0 ℃, land mean wind of more than 6; and sustainable.</item>
+        <item>Within 24 hours or minimum temperature may have dropped more than 16 ℃, the minimum temperature is less than equal to 0 ℃, land mean wind of more than 6; and sustainable.</item>
+        <item></item>
+    </string-array>
+    <string-array name="heavenly_stems">
+        <item>Первый</item>
+        <item>Второй</item>
+        <item>Третий</item>
+        <item>Четвертый</item>
+        <item>戊</item>
+        <item>уже</item>
+        <item>возраст</item>
+        <item>блеск</item>
+        <item>Ван</item>
+        <item>деканоат</item>
+    </string-array>
+    <string-array name="jieqi_notification">
+        <item>Today is the beginning of spring solar terms, starting in the spring soon.</item>
+        <item>Feasts rain today, rain began, gradually increasing rainfall.</item>
+        <item>Today Jingzhe solar terms, the temperature rose rapidly, gradually have Jubilee sprout.</item>
+        <item>Today is the vernal equinox solar terms, spring day and night of equal length.</item>
+        <item>Today is the Ching Ming Festival, gas, sunny weather, fresh air Ming Jie, gradually warming, lush vegetation.</item>
+        <item>Today Grain Rain solar terms, the increase in rainfall, the growth of great benefit to cereal crops.</item>
+        <item>Today is the beginning of summer solar terms, the starting point for the arrival of summer.</item>
+        <item>Xiaoman solar terms Today, the beginning of summer crops grain filling full, but not yet mature.</item>
+        <item>Today is the Grain in Ear solar term, wheat and other crops mature bearded, summer planting begins.</item>
+        <item>Today is the summer solstice solar terms, the summer solstice rain again and again, please pay attention to sunstroke.</item>
+        <item>Today Slight solar terms, the weather was hot, but did not reach hottest stage.</item>
+        <item>Today is the Great Heat solar terms, every year ushered in the hottest season.</item>
+        <item>Today is the beginning of autumn solar terms, the summer to cool, the starting point for the arrival of autumn.</item>
+        <item>Today is Chushu throttle, hot summer coming to an end.</item>
+        <item>Today is the dew solar terms, the temperature began to drop, cooler weather in the morning with dew on the grass.</item>
+        <item>Today is the autumnal equinox solar terms, the fall of the length of day and night are equal.</item>
+        <item>Today is the dew solar terms, the lower the temperature, the air has dewdrop, gradual chill.</item>
+        <item>Today is frost solar terms, the weather is getting cold, start frost.</item>
+        <item>Today is the beginning of winter solar terms, the starting point for the arrival of winter.</item>
+        <item>Today is the snow solar terms, to the days of snowfall began to snow-based.</item>
+        <item>Today is the snow solar terms, to the days of snowfall began to snow-based.</item>
+        <item>Today is the winter solstice solar terms, the winter solstice have snow, please keep warm.</item>
+        <item>today Osamu solar terms, weather cools further, but did not reach the coldest stage.</item>
+        <item>Today is the Big Chill solar terms, every year ushered in the coldest season.</item>
+    </string-array>
+    <string-array name="leidian">
+        <item></item>
+        <item>may occur within six hours of lightning activity may cause lightning disasters.</item>
+        <item>may be or have been affected by lightning activity affected, and may continue, lightning accidents occur more likely within two hours.</item>
+        <item>within 2 hours or has been subjected to intense high probability of lightning activity affected, and is likely to continue, there is a lightning disasters possibility is very great.</item>
+        <item></item>
+    </string-array>
+    <array name="letv_weathericons_graph">
+        <item>@drawable/letv_weathericon_graph_06</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_13</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_08</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_08</item>
+        <item>@drawable/letv_weathericon_graph_09</item>
+        <item>@drawable/letv_weathericon_graph_11</item>
+        <item>@drawable/letv_weathericon_graph_11</item>
+        <item>@drawable/letv_weathericon_graph_11</item>
+        <item>@drawable/letv_weathericon_graph_12</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_06</item>
+        <item>@drawable/letv_weathericon_graph_05</item>
+        <item>@drawable/letv_weathericon_graph_18</item>
+        <item>@drawable/letv_weathericon_graph_06</item>
+        <item>@drawable/letv_weathericon_graph_06</item>
+        <item>@drawable/letv_weathericon_graph_06</item>
+        <item>@drawable/letv_weathericon_graph_04</item>
+        <item>@drawable/letv_weathericon_graph_04</item>
+        <item>@drawable/letv_weathericon_graph_16</item>
+        <item>@drawable/letv_weathericon_graph_03</item>
+        <item>@drawable/letv_weathericon_graph_16</item>
+        <item>@drawable/letv_weathericon_graph_02</item>
+        <item>@drawable/letv_weathericon_graph_15</item>
+        <item>@drawable/letv_weathericon_graph_01</item>
+        <item>@drawable/letv_weathericon_graph_15</item>
+        <item>@drawable/letv_weathericon_graph_01</item>
+        <item>@drawable/letv_weathericon_graph_14</item>
+        <item>@drawable/letv_weathericon_graph_01</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_07</item>
+        <item>@drawable/letv_weathericon_graph_07</item>
+        <item>@drawable/letv_weathericon_graph_12</item>
+        <item>@drawable/letv_weathericon_graph_11</item>
+        <item>@drawable/letv_weathericon_graph_12</item>
+        <item>@drawable/letv_weathericon_graph_02</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_11</item>
+        <item>@drawable/letv_weathericon_graph_10</item>
+        <item>@drawable/letv_weathericon_graph_17</item>
+        <item>@drawable/letv_weathericon_graph_17</item>
+    </array>
+    <array name="life_card_detail_car_wash">
+        <item>#ff104955</item>
+        <item>#ff104955</item>
+        <item>#ff166071</item>
+        <item>@drawable/life_color_detail_washcar_btn</item>
+    </array>
+    <array name="life_card_detail_clothes">
+        <item>#ff204560</item>
+        <item>#ff204560</item>
+        <item>#ff125b92</item>
+        <item>@drawable/life_color_detail_clothes_btn</item>
+    </array>
+    <array name="life_card_detail_dog">
+        <item>#ff284c25</item>
+        <item>#ff284c25</item>
+        <item>#ff306f2b</item>
+        <item>@drawable/life_color_detail_dog_btn</item>
+    </array>
+    <array name="life_card_detail_jieqi">
+        <item>#ff553a19</item>
+        <item>#ff553a19</item>
+        <item>#ff704919</item>
+        <item>@drawable/life_color_detail_jieqi_btn</item>
+    </array>
+    <array name="life_card_detail_limit_number">
+        <item>#ff204435</item>
+        <item>#ff204435</item>
+        <item>#ff1d583f</item>
+        <item>@drawable/life_color_detail_limitnumber_btn</item>
+    </array>
+    <array name="life_card_detail_sport">
+        <item>#ff3b4c0d</item>
+        <item>#ff3b4c0d</item>
+        <item>#ff556e13</item>
+        <item>@drawable/life_color_detail_sport_btn</item>
+    </array>
+    <array name="life_card_detail_sunup">
+        <item>#ff602a35</item>
+        <item>#ff602a35</item>
+        <item>#ff732938</item>
+        <item>@drawable/life_color_detail_sunup_btn</item>
+    </array>
+    <array name="life_card_detail_ultraviolet_rays">
+        <item>#ff4a3654</item>
+        <item>#ff4a3654</item>
+        <item>#ff654177</item>
+        <item>@drawable/life_color_detail_ultraviolet_rays_btn</item>
+    </array>
+    <array name="life_card_detail_umbrella">
+        <item>#ff512e43</item>
+        <item>#ff512e43</item>
+        <item>#ff7a355d</item>
+        <item>@drawable/life_color_detail_umbrella_btn</item>
+    </array>
+    <array name="life_card_detail_weather_warning">
+        <item>#ff584707</item>
+        <item>#ff584707</item>
+        <item>#ff796723</item>
+        <item>@drawable/life_color_detail_weather_warning_btn</item>
+    </array>
+    <string-array name="live_action_default_background">
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_4.jpg</item>
+        <item>main_bg_5.jpg</item>
+        <item>main_bg_4.jpg</item>
+        <item>main_bg_4.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_3.jpg</item>
+        <item>main_bg_7.jpg</item>
+        <item>main_bg_2.jpg</item>
+        <item>main_bg_7.jpg</item>
+        <item>main_bg_2.jpg</item>
+        <item>main_bg_8.jpg</item>
+        <item>main_bg_1.jpg</item>
+        <item>main_bg_8.jpg</item>
+        <item>main_bg_1.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_1.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_10.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_2.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_6.jpg</item>
+        <item>main_bg_9.jpg</item>
+        <item>main_bg_1.jpg</item>
+        <item>main_bg_1.jpg</item>
+    </string-array>
+    <string-array name="mai">
+        <item></item>
+        <item>may occur within 12 hours of visibility less than 3000 m haze or haze visibility less than 3000 meters have emerged and may continue.</item>
+        <item>may occur within six hours of visibility less than 2000 m haze or haze visibility less than 2000 meters have emerged and may continue.</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="month_of_year_en">
+        <item>Январь</item>
+        <item>Февраля</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Мая</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="normal_festival_name">
+        <item>день Нового года</item>
+        <item></item>
+        <item>День святого Валентина</item>
+        <item>День смеха</item>
+        <item></item>
+        <item>Рождество</item>
+    </string-array>
+    <string-array name="normal_festival_notification">
+        <item>С Новым Годом!</item>
+        <item>После завтра день Святого Валентина! Не забудьте подготовить самые интимные человеку подарок Oh!</item>
+        <item>День святого Валентина пришел, и я желаю вам всем сладких конфеток!</item>
+        <item>Сегодня День Дурака!</item>
+        <item>Рождество послезавтра! Мы делаем договоренности по ряду мероприятий!</item>
+        <item>Рождество, я желаю всем вам веселья!</item>
+    </string-array>
+    <array name="panelbg">
+        <item>@drawable/weather_warn_taifeng_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_four_level</item>
+        <item>@drawable/weather_warn_yellow_orange_red</item>
+        <item>@drawable/weather_warn_yellow_orange_red</item>
+        <item>@drawable/weather_warn_yellow_orange_red</item>
+        <item>@drawable/weather_warn_yellow_orange_red</item>
+        <item>@drawable/weather_warn_two_level</item>
+        <item>@drawable/weather_warn_two_level</item>
+        <item>@drawable/weather_warn_shuangdong_level</item>
+        <item>@drawable/weather_warn_mai_level</item>
+    </array>
+    <string-array name="provinceutility_pcodes_and_strs">
+        <item>110000,Пекин</item>
+        <item>120000,Тяньцзинь</item>
+        <item>130000,провинция Хэбэй</item>
+        <item>140000,Шаньси</item>
+        <item>150000,Внутренняя Монголия</item>
+        <item>210000,провинции Ляонин</item>
+        <item>220000,Цзилинь</item>
+        <item>230000,провинция Хэйлунцзян</item>
+        <item>310000,Шанхай</item>
+        <item>320000,провинция Цзянсу</item>
+        <item>330000,провинция Чжэцзян</item>
+        <item>340000,Аньхой</item>
+        <item>350000,провинция Фуцзянь</item>
+        <item>360000,Цзянси</item>
+        <item>370000,провинция Шаньдун</item>
+        <item>410000,провинция Хэнань</item>
+        <item>420000,Хубэй</item>
+        <item>430000,Хунань</item>
+        <item>440000,провинция Гуандун</item>
+        <item>450000,Гуанси-Чжуанский автономный район</item>
+        <item>460000,Хайнань</item>
+        <item>500000,Чунцин</item>
+        <item>510000,Сычуань</item>
+        <item>520000,провинции Гуйчжоу</item>
+        <item>530000,Юньнань</item>
+        <item>540000,TAR</item>
+        <item>610000,провинции Шэньси</item>
+        <item>620000,провинция Ганьсу</item>
+        <item>630000,Цинхай</item>
+        <item>640000,Нинся-Хуэйский автономный район</item>
+        <item>650000,Синьцзян-Уйгурский автономный район</item>
+        <item>710000,Тайвань</item>
+        <item>810000,Гонконг</item>
+        <item>820000,Специальный административный район Макао</item>
+    </string-array>
+    <string-array name="settings_tabcontent_alarm_item_set_repeat_entry">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="settings_tabcontent_alarm_item_set_repeat_entry_value">
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+        <item>четыре</item>
+        <item>пять</item>
+        <item>шесть</item>
+        <item>Япония</item>
+        <item>Каждый день</item>
+    </string-array>
+    <string-array name="settings_tabcontent_animation_background_style_entry">
+        <item>Фотографии фон</item>
+        <item>Динамический фон</item>
+    </string-array>
+    <integer-array name="settings_tabcontent_animation_background_style_entry_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_tabcontent_more_share_entry">
+        <item>Прогноз погоды + 2 дня</item>
+        <item>Прогноз погоды + 3 дня</item>
+        <item>Прогноз погоды + 5 дней</item>
+        <item>2 дня прогноз погоды</item>
+        <item>3 дня прогноз погоды</item>
+        <item>5 дней прогноз погоды</item>
+    </string-array>
+    <integer-array name="settings_tabcontent_more_share_entry_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_tabcontent_more_update_interval_entry">
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>4 часа</item>
+        <item>5 часов</item>
+    </string-array>
+    <string-array name="settings_tabcontent_more_update_interval_entry_summary">
+        <item>в 1 час 1 раз</item>
+        <item>в 2 часа 1 раз</item>
+        <item>в 3 часа 1 раз</item>
+        <item>в 4 часа 1 раз</item>
+        <item>в 5 часов 1 раз</item>
+    </string-array>
+    <integer-array name="settings_tabcontent_more_update_interval_entry_value">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </integer-array>
+    <string-array name="shachengbao">
+        <item></item>
+        <item>may appear sandstorms (visibility less than 1000 meters), or sandstorm has emerged and is likely to continue within 12 hours.</item>
+        <item>may occur within six hours of strong sandstorm weather (visibility less than 500 meters), or there have been strong sandstorm weather and is likely to continue.</item>
+        <item>may occur within six hours exceptionally strong sandstorm weather (visibility less than 50 meters), or there have been exceptionally strong sandstorm and is likely to continue.</item>
+        <item></item>
+    </string-array>
+    <string-array name="shuangdong">
+        <item>the ground within 48 hours or minimum temperature may drop below 0 ℃, will have an impact on agriculture, and is likely to continue.</item>
+        <item>the ground within 24 hours or minimum temperature may drop below minus 3 ℃, will have a serious impact on agriculture, and is likely to continue.</item>
+        <item>the ground within 24 hours or minimum temperature may have dropped to below minus 5 ℃, it will have a serious impact on agriculture and will continue.</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="simplified_emotion_array">
+        <item>[far right]</item>
+        <item>[Oh]</item>
+        <item>[hee hee]</item>
+        <item>[ha ha]</item>
+        <item>[love you]</item>
+        <item>[digging booger]</item>
+        <item>[surprised]</item>
+        <item>[Halo]</item>
+        <item>[tears]</item>
+        <item>[glutton]</item>
+        <item>[crazy]</item>
+        <item>[hum]</item>
+        <item>[cute]</item>
+        <item>[anger]</item>
+        <item>[Khan]</item>
+        <item>[shy]</item>
+        <item>[sleep]</item>
+        <item>[money]</item>
+        <item>[laughing]</item>
+        <item>[laugh cry]</item>
+        <item>[doge]</item>
+        <item>[meow]</item>
+        <item>[Cool]</item>
+        <item>[bad]</item>
+        <item>[shut up]</item>
+        <item>[contempt]</item>
+        <item>[Fa]</item>
+        <item>[Applause]</item>
+        <item>[sad]</item>
+        <item>[Thinking]</item>
+        <item>[sick]</item>
+        <item>[kiss]</item>
+        <item>[curse]</item>
+        <item>[too happy]</item>
+        <item>[too lazy to care about you]</item>
+        <item>[right-hum]</item>
+        <item>[Left hum]</item>
+        <item>[boo]</item>
+        <item>[grievance]</item>
+        <item>[spit]</item>
+        <item>[poor]</item>
+        <item>[play Kazakh gas]</item>
+        <item>[wink]</item>
+        <item>[disappointed]</item>
+        <item>[top]</item>
+        <item>[doubt]</item>
+        <item>[sleepy]</item>
+        <item>[cold]</item>
+        <item>[bye]</item>
+        <item>[black line]</item>
+        <item>[sinister]</item>
+        <item>[her face]</item>
+        <item>[dumbfounded]</item>
+        <item>[mutual powder]</item>
+        <item>[heart]</item>
+        <item>[sad]</item>
+        <item>[pig]</item>
+        <item>[Panda]</item>
+        <item>[Rabbit]</item>
+        <item>[shake hands]</item>
+        <item>[bowed]</item>
+        <item>[Chan]</item>
+        <item>[Jesus]</item>
+        <item>[good]</item>
+        <item>[weak]</item>
+        <item>[do not]</item>
+        <item>[ok]</item>
+        <item>[haha]</item>
+        <item>[to]</item>
+        <item>[mighty]</item>
+        <item>[Flowers]</item>
+        <item>[Bell]</item>
+        <item>[cloud]</item>
+        <item>[aircraft]</item>
+        <item>[moon]</item>
+        <item>[Sun]</item>
+        <item>[breeze]</item>
+        <item>[rain]</item>
+        <item>[to force]</item>
+        <item>[God Ma]</item>
+        <item>[onlookers]</item>
+        <item>[microphone]</item>
+        <item>[Altman]</item>
+        <item>[mud horse]</item>
+        <item>[Moe]</item>
+        <item>[embarrassing]</item>
+        <item>[Organization]</item>
+        <item>[gift]</item>
+        <item>[hi]</item>
+        <item>[bib]</item>
+        <item>[Music]</item>
+        <item>[green ribbon]</item>
+        <item>[cake]</item>
+        <item>[candle]</item>
+        <item>[Cheers]</item>
+        <item>[boy]</item>
+        <item>[girl]</item>
+        <item>[soap]</item>
+        <item>[Camera]</item>
+        <item>[Lang]</item>
+        <item>[dust]</item>
+    </string-array>
+    <string-array name="solar_terms">
+        <item>Начало весны</item>
+        <item>Дождевая вода</item>
+        <item>Цзинчже</item>
+        <item>Весеннее равноденствие</item>
+        <item>Цинмин</item>
+        <item>Guyu</item>
+        <item>Начало лета</item>
+        <item>Xiaoman</item>
+        <item>Зерно в ухо</item>
+        <item>Летнее солнцестояние</item>
+        <item>Незначительный</item>
+        <item>Дашу</item>
+        <item>Начало осени</item>
+        <item>Chushu</item>
+        <item>Белые росы</item>
+        <item>Точка осеннего равноденствия</item>
+        <item>Роса</item>
+        <item>Мороз</item>
+        <item>Начало зимы</item>
+        <item>снег</item>
+        <item>сильный снегопад</item>
+        <item>Зимнее солнцестояние</item>
+        <item>Осаму</item>
+        <item>Большой Холод</item>
+    </string-array>
+    <string-array name="special_festival_name">
+        <item></item>
+        <item>День матери</item>
+        <item></item>
+        <item>День отца</item>
+    </string-array>
+    <string-array name="special_festival_notification">
+        <item>День матери послезавтра!</item>
+        <item>母亲节到了,祝全天下的妈妈身体健康,越活越年轻!</item>
+        <item>大后天就是父亲节啦!</item>
+        <item>父亲节到了,祝全天下的爸爸身体健康,生活幸福!</item>
+    </string-array>
+    <string-array name="taifen">
+        <item>24小时内可能或已受热带气旋影响,沿海或者陆地平均风力达6级以上，或阵风8级以上并可能持续。</item>
+        <item>24小时内可能或已受热带气旋影响,沿海或者陆地平均风力达8级以上，或阵风10级以上并可能持续。</item>
+        <item>12小时内可能或已受热带气旋影响,沿海或者陆地平均风力达10级以上，或阵风12级以上并可能持续。</item>
+        <item>6小时内可能或已受热带气旋影响，沿海或者陆地平均风力达12级以上，或阵风达14级以上并可能持续。</item>
+        <item>48小时内沿海或者陆地可能或已受热带气旋影响。</item>
+    </string-array>
+    <integer-array name="textcolor">
+        <item>0xff50c7ff</item>
+        <item>0xfff8c600</item>
+        <item>0xfff89700</item>
+        <item>0xffe03a3a</item>
+        <item>0xffb4b4b4</item>
+    </integer-array>
+    <string-array name="traditional_emotion_array">
+        <item>[far right]</item>
+        <item>[Oh]</item>
+        <item>[hee hee]</item>
+        <item>[ha ha]</item>
+        <item>[love you]</item>
+        <item>[digging booger]</item>
+        <item>[surprised]</item>
+        <item>[Halo]</item>
+        <item>[tears]</item>
+        <item>[glutton]</item>
+        <item>[crazy]</item>
+        <item>[hum]</item>
+        <item>[cute]</item>
+        <item>[anger]</item>
+        <item>[Khan]</item>
+        <item>[shy]</item>
+        <item>[sleep]</item>
+        <item>[money]</item>
+        <item>[laughing]</item>
+        <item>[laugh cry]</item>
+        <item>[doge]</item>
+        <item>[meow]</item>
+        <item>[Cool]</item>
+        <item>[bad]</item>
+        <item>[shut up]</item>
+        <item>[contempt]</item>
+        <item>[Fa]</item>
+        <item>[Applause]</item>
+        <item>[sad]</item>
+        <item>[Thinking]</item>
+        <item>[sick]</item>
+        <item>[kiss]</item>
+        <item>[curse]</item>
+        <item>[too happy]</item>
+        <item>[too lazy to care about you]</item>
+        <item>[right-hum]</item>
+        <item>[Left hum]</item>
+        <item>[boo]</item>
+        <item>[grievance]</item>
+        <item>[spit]</item>
+        <item>[poor]</item>
+        <item>[play Kazakh gas]</item>
+        <item>[wink]</item>
+        <item>[disappointed]</item>
+        <item>[top]</item>
+        <item>[doubt]</item>
+        <item>[sleepy]</item>
+        <item>[cold]</item>
+        <item>[bye]</item>
+        <item>[black line]</item>
+        <item>[sinister]</item>
+        <item>[her face]</item>
+        <item>[dumbfounded]</item>
+        <item>[mutual powder]</item>
+        <item>[heart]</item>
+        <item>[sad]</item>
+        <item>[pig]</item>
+        <item>[Panda]</item>
+        <item>[Rabbit]</item>
+        <item>[shake hands]</item>
+        <item>[bowed]</item>
+        <item>[Chan]</item>
+        <item>[Jesus]</item>
+        <item>[good]</item>
+        <item>[weak]</item>
+        <item>[do not]</item>
+        <item>[ok]</item>
+        <item>[haha]</item>
+        <item>[to]</item>
+        <item>[mighty]</item>
+        <item>[Flowers]</item>
+        <item>[Bell]</item>
+        <item>[cloud]</item>
+        <item>[aircraft]</item>
+        <item>[moon]</item>
+        <item>[Sun]</item>
+        <item>[breeze]</item>
+        <item>[rain]</item>
+        <item>[to force]</item>
+        <item>[God Ma]</item>
+        <item>[onlookers]</item>
+        <item>[microphone]</item>
+        <item>[Altman]</item>
+        <item>[mud horse]</item>
+        <item>[Moe]</item>
+        <item>[embarrassing]</item>
+        <item>[Organization]</item>
+        <item>[gift]</item>
+        <item>[hi]</item>
+        <item>[bib]</item>
+        <item>[Music]</item>
+        <item>[green ribbon]</item>
+        <item>[cake]</item>
+        <item>[candle]</item>
+        <item>[Cheers]</item>
+        <item>[boy]</item>
+        <item>[girl]</item>
+        <item>[soap]</item>
+        <item>[Camera]</item>
+        <item>[Lang]</item>
+        <item>[dust]</item>
+    </string-array>
+    <string-array name="tts_log">
+        <item>в течение дня</item>
+        <item>вечером</item>
+        <item>Завтра днем</item>
+        <item>Завтра вечером</item>
+        <item>солнечно</item>
+        <item>облачно</item>
+        <item>Шаоян</item>
+        <item>Инь</item>
+        <item>изморось</item>
+        <item>дождь</item>
+        <item>сильный дождь</item>
+        <item>ливень с ураганом</item>
+        <item>сильный дождь</item>
+        <item>ливневый дождь</item>
+        <item>ливень</item>
+        <item>Грозы</item>
+        <item>дождь со снегом</item>
+        <item>дождь со снегом</item>
+        <item>дождь с градом</item>
+        <item>снег</item>
+        <item>Снег</item>
+        <item>сильный снегопад</item>
+        <item>метель</item>
+        <item>сильный снегопад</item>
+        <item>песчаная буря</item>
+        <item>Сильный песчаная буря</item>
+        <item>пыль</item>
+        <item>туман</item>
+        <item>Град</item>
+        <item>дымка</item>
+        <item>дым</item>
+        <item>гроза</item>
+        <item>спорадический</item>
+        <item>Грозы с градом</item>
+        <item>поворот</item>
+        <item>частично</item>
+        <item>ноль</item>
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+        <item>четыре</item>
+        <item>пять</item>
+        <item>шесть</item>
+        <item>семь</item>
+        <item>восемь</item>
+        <item>девять</item>
+        <item>десять</item>
+        <item>Цельсия</item>
+        <item>для</item>
+        <item>Самая низкая температура</item>
+        <item>максимальная температура</item>
+        <item>ниже нуля</item>
+        <item>для</item>
+        <item>температура воздуха</item>
+        <item>северный</item>
+        <item>южный ветер</item>
+        <item>Dongfeng</item>
+        <item>западный</item>
+        <item>Юго-западный ветер</item>
+        <item>Северо-Западный ветер</item>
+        <item>ветер юго-восточный</item>
+        <item>северо-восточный</item>
+        <item>ветер</item>
+        <item>Жестокий ветер</item>
+        <item>буря</item>
+        <item>ураган</item>
+        <item>уровень</item>
+        <item>Нет</item>
+        <item>небольшой</item>
+        <item>в</item>
+        <item>Большой</item>
+        <item>[pause]</item>
+        <item>weather day pass for your latest weather forecast broadcast</item>
+        <item>Weather Forecast update fails, check the network settings</item>
+        <item>Weather forecast has expired, please update immediately</item>
+        <item>[music_day]</item>
+        <item>[surprise]</item>
+        <item>weather through the night for you to broadcast the latest weather forecast</item>
+        <item>[music_night]</item>
+        <item>[bg_music]</item>
+    </string-array>
+    <array name="warning_color_array">
+        <item>#ffaeaeae</item>
+        <item>#ff0982f4</item>
+        <item>#fff5b122</item>
+        <item>#fff7821a</item>
+        <item>#ffee2100</item>
+    </array>
+    <string-array name="warning_level_array">
+        <item>белый</item>
+        <item>синий</item>
+        <item>желтый</item>
+        <item>оранжевый</item>
+        <item>красный</item>
+    </string-array>
+    <array name="weathericons_city_gray">
+        <item>@drawable/settings_icon_city_w_06</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_13</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_08</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_08</item>
+        <item>@drawable/settings_icon_city_w_09</item>
+        <item>@drawable/settings_icon_city_w_13</item>
+        <item>@drawable/settings_icon_city_w_11</item>
+        <item>@drawable/settings_icon_city_w_11</item>
+        <item>@drawable/settings_icon_city_w_12</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_06</item>
+        <item>@drawable/settings_icon_city_w_05</item>
+        <item>@drawable/settings_icon_city_w_18</item>
+        <item>@drawable/settings_icon_city_w_06</item>
+        <item>@drawable/settings_icon_city_w_06</item>
+        <item>@drawable/settings_icon_city_w_06</item>
+        <item>@drawable/settings_icon_city_w_04</item>
+        <item>@drawable/settings_icon_city_w_04</item>
+        <item>@drawable/settings_icon_city_w_16</item>
+        <item>@drawable/settings_icon_city_w_03</item>
+        <item>@drawable/settings_icon_city_w_16</item>
+        <item>@drawable/settings_icon_city_w_02</item>
+        <item>@drawable/settings_icon_city_w_15</item>
+        <item>@drawable/settings_icon_city_w_01</item>
+        <item>@drawable/settings_icon_city_w_15</item>
+        <item>@drawable/settings_icon_city_w_01</item>
+        <item>@drawable/settings_icon_city_w_14</item>
+        <item>@drawable/settings_icon_city_w_01</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_07</item>
+        <item>@drawable/settings_icon_city_w_07</item>
+        <item>@drawable/settings_icon_city_w_12</item>
+        <item>@drawable/settings_icon_city_w_13</item>
+        <item>@drawable/settings_icon_city_w_12</item>
+        <item>@drawable/settings_icon_city_w_02</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_13</item>
+        <item>@drawable/settings_icon_city_w_10</item>
+        <item>@drawable/settings_icon_city_w_17</item>
+        <item>@drawable/settings_icon_city_w_17</item>
+    </array>
+    <array name="weathericons_graph">
+        <item>@drawable/weathericon_graph_06</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_13</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_08</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_08</item>
+        <item>@drawable/weathericon_graph_09</item>
+        <item>@drawable/weathericon_graph_11</item>
+        <item>@drawable/weathericon_graph_11</item>
+        <item>@drawable/weathericon_graph_11</item>
+        <item>@drawable/weathericon_graph_12</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_06</item>
+        <item>@drawable/weathericon_graph_05</item>
+        <item>@drawable/weathericon_graph_18</item>
+        <item>@drawable/weathericon_graph_06</item>
+        <item>@drawable/weathericon_graph_06</item>
+        <item>@drawable/weathericon_graph_06</item>
+        <item>@drawable/weathericon_graph_04</item>
+        <item>@drawable/weathericon_graph_04</item>
+        <item>@drawable/weathericon_graph_16</item>
+        <item>@drawable/weathericon_graph_03</item>
+        <item>@drawable/weathericon_graph_16</item>
+        <item>@drawable/weathericon_graph_02</item>
+        <item>@drawable/weathericon_graph_15</item>
+        <item>@drawable/weathericon_graph_01</item>
+        <item>@drawable/weathericon_graph_15</item>
+        <item>@drawable/weathericon_graph_01</item>
+        <item>@drawable/weathericon_graph_14</item>
+        <item>@drawable/weathericon_graph_01</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_07</item>
+        <item>@drawable/weathericon_graph_07</item>
+        <item>@drawable/weathericon_graph_12</item>
+        <item>@drawable/weathericon_graph_11</item>
+        <item>@drawable/weathericon_graph_12</item>
+        <item>@drawable/weathericon_graph_02</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_11</item>
+        <item>@drawable/weathericon_graph_10</item>
+        <item>@drawable/weathericon_graph_17</item>
+        <item>@drawable/weathericon_graph_17</item>
+    </array>
+    <array name="weathericons_letv_appwidget">
+        <item>@drawable/ic_weather_widget_06</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_13</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_08</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_08</item>
+        <item>@drawable/ic_weather_widget_09</item>
+        <item>@drawable/ic_weather_widget_11</item>
+        <item>@drawable/ic_weather_widget_11</item>
+        <item>@drawable/ic_weather_widget_11</item>
+        <item>@drawable/ic_weather_widget_12</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_06</item>
+        <item>@drawable/ic_weather_widget_05</item>
+        <item>@drawable/ic_weather_widget_18</item>
+        <item>@drawable/ic_weather_widget_06</item>
+        <item>@drawable/ic_weather_widget_06</item>
+        <item>@drawable/ic_weather_widget_06</item>
+        <item>@drawable/ic_weather_widget_04</item>
+        <item>@drawable/ic_weather_widget_04</item>
+        <item>@drawable/ic_weather_widget_16</item>
+        <item>@drawable/ic_weather_widget_03</item>
+        <item>@drawable/ic_weather_widget_16</item>
+        <item>@drawable/ic_weather_widget_02</item>
+        <item>@drawable/ic_weather_widget_15</item>
+        <item>@drawable/ic_weather_widget_01</item>
+        <item>@drawable/ic_weather_widget_15</item>
+        <item>@drawable/ic_weather_widget_01</item>
+        <item>@drawable/ic_weather_widget_14</item>
+        <item>@drawable/ic_weather_widget_01</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_07</item>
+        <item>@drawable/ic_weather_widget_07</item>
+        <item>@drawable/ic_weather_widget_12</item>
+        <item>@drawable/ic_weather_widget_11</item>
+        <item>@drawable/ic_weather_widget_12</item>
+        <item>@drawable/ic_weather_widget_02</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_11</item>
+        <item>@drawable/ic_weather_widget_10</item>
+        <item>@drawable/ic_weather_widget_17</item>
+        <item>@drawable/ic_weather_widget_17</item>
+    </array>
+    <string-array name="weizhi">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="wi_level_strs">
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>17</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>13</item>
+        <item>13</item>
+        <item>13</item>
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>8</item>
+        <item>8</item>
+        <item>9</item>
+        <item>9</item>
+        <item>7</item>
+        <item>7</item>
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>15</item>
+        <item>3</item>
+        <item>12</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>17</item>
+        <item>10</item>
+        <item>17</item>
+        <item>4</item>
+        <item>16</item>
+        <item>11</item>
+        <item>12</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wi_strs_en_1">
+        <item>Торнадо</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>сильные грозы</item>
+        <item>Гроза</item>
+        <item>смешанный дождь и снег</item>
+        <item>mixed rain and sleet</item>
+        <item>mixed snow and sleet</item>
+        <item>freezing drizzle</item>
+        <item>Мелкий дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Мелкий дождь</item>
+        <item>Дождь</item>
+        <item>snow flurries</item>
+        <item>light snow showers</item>
+        <item>Метель</item>
+        <item>Снег</item>
+        <item>град</item>
+        <item>дождь со снегом</item>
+        <item>пыль</item>
+        <item>туман</item>
+        <item>дымка</item>
+        <item>дымчатый</item>
+        <item>бурный</item>
+        <item>Ветреный</item>
+        <item>Холод</item>
+        <item>Пасмурно</item>
+        <item>в основном облачно</item>
+        <item>в основном облачно</item>
+        <item>Переменная облачность</item>
+        <item>Переменная облачность</item>
+        <item>Ясно</item>
+        <item>Солнечно</item>
+        <item>Ясно</item>
+        <item>Солнечно</item>
+        <item>смешанный дождь и град</item>
+        <item>жарко</item>
+        <item>Изолированная гроза</item>
+        <item>Небольшая гроза</item>
+        <item>Дождь</item>
+        <item>Небольшой дождь</item>
+        <item>Сильный снегопад</item>
+        <item>Небольшой снег с дождем</item>
+        <item>Сильный снегопад</item>
+        <item>Переменная облачность</item>
+        <item>Грозовой ливень</item>
+        <item>Снегопад</item>
+        <item>Изолированные ливень</item>
+        <item>Не доступно</item>
+        <item>Неизвестная погода</item>
+    </string-array>
+    <string-array name="wi_strs_en_2">
+        <item>Торнадо</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>сильные грозы</item>
+        <item>Грозы</item>
+        <item>Смешанный дожд со снегом</item>
+        <item>Смешанный дожд и мокрый снег</item>
+        <item>Смешанный дожд и мокрый снег</item>
+        <item>Ледяная морось</item>
+        <item>Мелкий дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Мелкий дождь</item>
+        <item>Дождь</item>
+        <item>Снег снегопад</item>
+        <item>Небольшой снег с дождем</item>
+        <item>Метель</item>
+        <item>Снег</item>
+        <item>Радость</item>
+        <item>Дождь со снегом</item>
+        <item>Пыль</item>
+        <item>Туманно</item>
+        <item>Дымка</item>
+        <item>Дымчатый</item>
+        <item>бурный</item>
+        <item>Ветреный</item>
+        <item>Холодная</item>
+        <item>Пасмурно</item>
+        <item>Облачно</item>
+        <item>Облачно</item>
+        <item>Переменная облачность</item>
+        <item>Переменная облачность</item>
+        <item>Очистить</item>
+        <item>Солнечно</item>
+        <item>Очистить</item>
+        <item>Солнечно</item>
+        <item>Смешанный дожд с градом</item>
+        <item>Популярные</item>
+        <item>Изолированная гроза</item>
+        <item>Небольшая гроза</item>
+        <item>Дождь</item>
+        <item>Небольшой дождь</item>
+        <item>Сильный снегопад</item>
+        <item>Небольшой снег с дождем</item>
+        <item>Сильный снегопад</item>
+        <item>Переменная облачность</item>
+        <item>Грозовой ливень</item>
+        <item>Снег</item>
+        <item>Изолированные ливень</item>
+        <item>Не доступно</item>
+        <item>Неизвестная погода</item>
+    </string-array>
+</resources>

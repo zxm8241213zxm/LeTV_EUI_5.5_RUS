@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unknown">Неизвестный</string>
+    <string name="calllog_provider_label">Журналы вызовов</string>
+    <string name="blacklist_provider_label">Черный список</string>
+    <string name="sharedUserLabel">Android Основные приложения</string>
+    <string name="app_label">Хранилище контактов</string>
+    <string name="provider_label">Контакты</string>
+    <string name="upgrade_msg">Обновление базы данных контактов.</string>
+    <string name="upgrade_out_of_memory_notification_ticker">Для обновления контактов требуется больше памяти.</string>
+    <string name="upgrade_out_of_memory_notification_title">Обновление хранения для контактов</string>
+    <string name="upgrade_out_of_memory_notification_text">Нажмите, чтобы завершить обновление.</string>
+    <string name="default_directory">Контакты</string>
+    <string name="local_invisible_directory">Другой</string>
+    <string name="voicemail_from_column">Голосовая почта от</string>
+    <string name="debug_dump_title">Копировать базу контактов</string>
+    <string name="debug_dump_database_message">Вы собираетесь 1) сделать копию базы данных, которая включает в себя все контакты связанных информацией и все журналы вызовов во внутреннюю память, и 2)отправить по электронной почте. Не забудьте удалить копию, как только вы скопировали ее с устройства или получили сообщение с ее копией.</string>
+    <string name="debug_dump_delete_button">Удалить сейчас</string>
+    <string name="debug_dump_start_button">Пуск</string>
+    <string name="debug_dump_email_sender_picker">Выбрать программу, чтобы отправить файл</string>
+    <string name="debug_dump_email_subject">Прикрепить базу контактов</string>
+    <string name="debug_dump_email_body">Прикрепленна моя база данных контактов со всей моей контактной информацией. Обращаться с осторожностью.</string>
+</resources>

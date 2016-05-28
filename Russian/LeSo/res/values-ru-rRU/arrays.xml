@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="le_animals">
+        <item>Крыса</item>
+        <item>Бык</item>
+        <item>Тигр</item>
+        <item>Кролик</item>
+        <item>Дракон</item>
+        <item>Змея</item>
+        <item>Лошадь</item>
+        <item>Козерог</item>
+        <item>Обезьяна</item>
+        <item>Петух</item>
+        <item>Собака</item>
+        <item>Свинья</item>
+    </string-array>
+    <string-array name="le_chineseten">
+        <item>Первый</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="le_solar_holiday">
+        <item>01/01 New Years Day</item>
+        <item>"02/14 Valentine's Day"</item>
+        <item>"03/08 Women's Day"</item>
+        <item>03/12 Arbor Day</item>
+        <item>03/15 Consumer Day</item>
+        <item>"04/01 April Fool's Day"</item>
+        <item>05/01 Labor Day</item>
+        <item>05/04 Youth Day</item>
+        <item>"06/01 Children's Day"</item>
+        <item>"07/01 Party's Day"</item>
+        <item>"08/01 Army's Day"</item>
+        <item>"08/08 Father's Day"</item>
+        <item>"09/10 Teachers' Day"</item>
+        <item>10/01 National Day</item>
+        <item>10/31 Halloween</item>
+        <item>"11/11 Singles' Day"</item>
+        <item>12/24 Christmas Eve</item>
+        <item>12/25 Christmas</item>
+    </string-array>
+    <string-array name="le_solar_term">
+        <item></item>
+        <item>Прохладно</item>
+        <item>Мороз</item>
+        <item>Начало весны</item>
+        <item>Дождь</item>
+        <item>Awakening of insects</item>
+        <item>Vernal equinox</item>
+        <item>Clear and bright</item>
+        <item>Grain rain</item>
+        <item>Start of summer</item>
+        <item>Grain full</item>
+        <item>Grain in ear</item>
+        <item>Summer solstice</item>
+        <item>Minor heat</item>
+        <item>Major heat</item>
+        <item>Start of autumn</item>
+        <item>Limit of heat</item>
+        <item>White dew</item>
+        <item>Autumnal equinox</item>
+        <item>Cold dew</item>
+        <item>Frost descent</item>
+        <item>Start of winter</item>
+        <item>Minor snow</item>
+        <item>Major snow</item>
+        <item>Winter solstice</item>
+    </string-array>
+    <string-array name="detail_tab_advance">
+        <item>Информация</item>
+        <item>预告</item>
+        <item>相关</item>
+    </string-array>
+    <string-array name="detail_tab_full">
+        <item>Информация</item>
+        <item>选集</item>
+        <item>相关</item>
+    </string-array>
+    <string-array name="detail_tab_part">
+        <item>Информация</item>
+        <item>相关</item>
+    </string-array>
+    <string-array name="detail_tab_self">
+        <item>Информация</item>
+        <item>选集</item>
+    </string-array>
+    <string-array name="le_months_en">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Nar</item>
+        <item>Апр</item>
+        <item>Мая</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+    <string-array name="le_url_email_list">
+        <item>Копировать Email</item>
+        <item>Отправить e-mail</item>
+        <item>Сохранить Email</item>
+    </string-array>
+    <string-array name="le_url_phone_list">
+        <item>Сделать вызов</item>
+        <item>Послать сообщение</item>
+        <item>Сохранить как новый</item>
+        <item>Редактировать перед набором</item>
+        <item>Сохранить в существующий</item>
+    </string-array>
+    <string-array name="le_url_web_list">
+        <item>Копировать</item>
+        <item>Открыть</item>
+        <item>Сохранить</item>
+    </string-array>
+</resources>

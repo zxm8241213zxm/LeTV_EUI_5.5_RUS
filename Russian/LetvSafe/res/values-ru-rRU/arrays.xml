@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operation_arrays">
+        <item>Разрешённые</item>
+        <item>Запрещённые</item>
+        <item>Всегда спрашивать</item>
+    </string-array>
+    <string-array name="operation_two_arrays">
+        <item>Разрешить</item>
+        <item>Отклонить</item>
+    </string-array>
+    <string-array name="permission_log_title">
+        <item>Узнать примерное местоположение</item>
+        <item>Узнать точное местоположение</item>
+        <item>Использовать GPS</item>
+        <item>Вибрация</item>
+        <item>Чтение контактов</item>
+        <item>Внесение изменений в контактах</item>
+        <item>Чтение записанных вызовов</item>
+        <item>Внесение изменений в историю вызовов</item>
+        <item>Чтение календаря</item>
+        <item>Внесение изменений в календарь</item>
+        <item>Сканирование Wi-Fi</item>
+        <item>Отправка уведомлений</item>
+        <item>Использование базовой станции позиционирования</item>
+        <item>Совершение звонков</item>
+        <item>Чтение звуковые сообщения</item>
+        <item>Внесение изменений в звуковые сообщения</item>
+        <item>Получение сообщений</item>
+        <item>Получение экстренных сообщений</item>
+        <item>Получение MMS</item>
+        <item>Получение Push MMS</item>
+        <item>Отправка сообщений</item>
+        <item>Чтение ICC сообщений</item>
+        <item>Внесение изменений в ICC сообщения</item>
+        <item>Внесение изменений в системные настройки</item>
+        <item>Окно оповещения</item>
+        <item>Чтение уведомлений</item>
+        <item>Доступ к камере</item>
+        <item>Доступ к записи</item>
+        <item>Воспроизведение аудио</item>
+        <item>Читать из буфера обмена</item>
+        <item>Записать в буфер обмена</item>
+        <item>Использовать кнопку мультимедиа</item>
+        <item>Аудио фокус</item>
+        <item>Громкость медиа</item>
+        <item>Громкость медиа</item>
+        <item>Громкость медиа</item>
+        <item>Громкость медиа</item>
+        <item>Громкость медиа</item>
+        <item>Громкость уведомлений</item>
+        <item>Громкость Bluetooth</item>
+        <item>Бодрствовать</item>
+        <item>Отслеживание местоположения</item>
+        <item>Отслеживание высокого использования батареи</item>
+        <item>Вкл./выкл. Wi-Fi</item>
+        <item>Вкл./выкл. Bluetooth</item>
+        <item>Вкл./выкл. передачу данных</item>
+        <item>Время пробуждения</item>
+        <item>Послать сообщения</item>
+        <item>Прочитать сообщения</item>
+        <item>Написать в сообщениях</item>
+        <item>Автозагрузка</item>
+        <item>Активировать/выключить NFC</item>
+        <item>Громкость уведомлений</item>
+        <item>Чтение информации о телефоне</item>
+        <item>Приоритет уведомлений</item>
+        <item>Нет авторизации</item>
+    </string-array>
+</resources>

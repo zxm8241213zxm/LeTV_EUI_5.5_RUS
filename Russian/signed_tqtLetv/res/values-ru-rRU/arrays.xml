@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week_simple">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="days_of_week_trend_bitmap">
+        <item>Сб</item>
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вчера</item>
+        <item>Сегодня</item>
+    </string-array>
+    <string-array name="hot_chn_citys_code">
+        <item>CHXX0008</item>
+        <item>CHXX0116</item>
+        <item>CHXX0037</item>
+        <item>CHXX0120</item>
+        <item>CHXX0138</item>
+        <item>CHXX0099</item>
+        <item>CHXX0141</item>
+        <item>CHXX0016</item>
+        <item>CHXX0044</item>
+        <item>CHXX0165</item>
+        <item>CHXX0017</item>
+        <item>CHXX0119</item>
+        <item>CHXX0046</item>
+        <item>CHXX0013</item>
+        <item>WMXX1007</item>
+        <item>CHXX0019</item>
+        <item>CHXX0140</item>
+        <item>CHXX0507</item>
+        <item>CHXX0133</item>
+        <item>WMXX1016</item>
+        <item>WMXX1009</item>
+        <item>CHXX0049</item>
+        <item>CHXX0512</item>
+        <item>TWXX0021</item>
+        <item>USNY0996</item>
+        <item>JAXX0085</item>
+        <item>KSXX0037</item>
+        <item>FRXX0076</item>
+    </string-array>
+    <string-array name="hot_chn_citys_str">
+        <item>Пекин</item>
+        <item>Shanghai</item>
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Wuhan</item>
+        <item>Nanjing</item>
+        <item>Xi’an</item>
+        <item>Chengdu</item>
+        <item>Hangzhou</item>
+        <item>Zhengzhou</item>
+        <item>Chongqing</item>
+        <item>Shenyang</item>
+        <item>Harbin</item>
+        <item>Changsha</item>
+        <item>Suzhou</item>
+        <item>Dalian</item>
+        <item>Xiamen</item>
+        <item>Sanya</item>
+        <item>Tianjin</item>
+        <item>Ningbo</item>
+        <item>Wuxi</item>
+        <item>Гонконг</item>
+        <item>Macao</item>
+        <item>Тайбэй</item>
+        <item>Нью Йорк</item>
+        <item>Токио</item>
+        <item>Сеул</item>
+        <item>Париж</item>
+    </string-array>
+    <string-array name="hot_int_citys_code">
+        <item>JAXX0085</item>
+        <item>THXX0002</item>
+        <item>KSXX0037</item>
+        <item>SNXX0006</item>
+        <item>QAXX0003</item>
+        <item>IZXX0008</item>
+        <item>FRXX0076</item>
+        <item>RSXX0063</item>
+        <item>ITXX0042</item>
+        <item>GRXX0004</item>
+        <item>ITXX0085</item>
+        <item>GMXX0096</item>
+        <item>GMXX0007</item>
+        <item>PLXX0028</item>
+        <item>AUXX0025</item>
+        <item>UKXX0085</item>
+        <item>USNY0996</item>
+        <item>USDC0001</item>
+        <item>EIXX0014</item>
+        <item>CAXX0343</item>
+        <item>USCA0987</item>
+        <item>CAXX0504</item>
+        <item>CAXX0518</item>
+        <item>MXQR0138</item>
+        <item>EGXX0004</item>
+        <item>SGXX0001</item>
+        <item>ASXX0112</item>
+        <item>Подробнее</item>
+    </string-array>
+    <string-array name="hot_int_citys_str">
+        <item>Токио</item>
+        <item>Бангкок</item>
+        <item>Сеул</item>
+        <item>Сингапур</item>
+        <item>Доха</item>
+        <item>Багдад</item>
+        <item>Париж</item>
+        <item>Москва</item>
+        <item>Милан</item>
+        <item>Афины</item>
+        <item>Венеция</item>
+        <item>Nuremberg</item>
+        <item>Берлин</item>
+        <item>Варшава</item>
+        <item>Вена</item>
+        <item>Лондон</item>
+        <item>Нью Йорк</item>
+        <item>Вашингтон</item>
+        <item>Дублин</item>
+        <item>Оттава</item>
+        <item>Сан Франциско</item>
+        <item>Торонто</item>
+        <item>Ванкувер</item>
+        <item>Канкун</item>
+        <item>Каир</item>
+        <item>Дакар</item>
+        <item>Сидней</item>
+        <item>Остальные</item>
+    </string-array>
+    <string-array name="wi_strs">
+        <item>Торнадо</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>Сильная гроза</item>
+        <item>Гроза</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со льдом</item>
+        <item>Снег со льдом</item>
+        <item>Незначительные заморозки дождь</item>
+        <item>Мелкий дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Мелкий дождь</item>
+        <item>Дождь</item>
+        <item>Снегопад</item>
+        <item>Легкий снег</item>
+        <item>Метель</item>
+        <item>Снег</item>
+        <item>Радость</item>
+        <item>Дождь со снегом</item>
+        <item>Частицы пыли</item>
+        <item>Туманно</item>
+        <item>Дымка</item>
+        <item>Дымчатый</item>
+        <item>Сильный ветер</item>
+        <item>Ветер</item>
+        <item>Холодная</item>
+        <item>Облачность</item>
+        <item>Пасмурно</item>
+        <item>Пасмурно</item>
+        <item>Переменная облачность</item>
+        <item>Переменная облачность</item>
+        <item>Солнечно</item>
+        <item>Солнечно</item>
+        <item>Солнечно</item>
+        <item>Солнечно</item>
+        <item>Дождь с градом</item>
+        <item>Популярные</item>
+        <item>Изолированная гроза</item>
+        <item>Небольшая гроза</item>
+        <item>Дождь</item>
+        <item>Небольшой дождь</item>
+        <item>Сильный снегопад</item>
+        <item>Небольшой снег с дождем</item>
+        <item>Сильный снегопад</item>
+        <item>Переменная облачность</item>
+        <item>Грозовой ливень</item>
+        <item>Снегопад</item>
+        <item>Изолированные ливень</item>
+        <item>Неизвестная погода</item>
+        <item>Неизвестные погодные условия</item>
+    </string-array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.bluetooth" package="org.codeaurora.bluetooth" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <original-package android:name="org.codeaurora.bluetooth"/>
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_STACK"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.MMS_PUSH"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <application android:process="com.android.bluetooth">
+        <uses-library android:name="com.quicinc.wbc" android:required="false"/>
+        <uses-library android:name="javax.obex"/>
+        <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+        <activity android:enabled="@bool/profile_supported_ftp" android:excludeFromRecents="true" android:name=".ftp.BluetoothFtpActivity" android:process="@string/process" android:theme="@android:style/Theme.Holo.Dialog.Alert">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="@bool/profile_supported_ftp" android:name=".ftp.BluetoothFtpService" android:process="@string/process"/>
+        <receiver android:enabled="@bool/profile_supported_ftp" android:name=".ftp.BluetoothFtpReceiver" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="@bool/profile_supported_sap" android:excludeFromRecents="true" android:name=".sap.BluetoothSapPermissionActivity" android:process="@string/process" android:theme="@android:style/Theme.Holo.Dialog.Alert">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="@bool/profile_supported_sap" android:name=".sap.BluetoothSapService" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.IBluetoothSap"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="@bool/profile_supported_sap" android:name=".sap.BluetoothSapReceiver" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="@bool/profile_supported_dun" android:excludeFromRecents="true" android:name=".dun.BluetoothDunPermissionActivity" android:process="@string/process" android:theme="@android:style/Theme.Holo.Dialog.Alert">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="@bool/profile_supported_dun" android:name=".dun.BluetoothDunService" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.IBluetoothDun"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="@bool/profile_supported_dun" android:name=".dun.BluetoothDunReceiver" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name=".pxpservice.PxpMonitorService" android:process="@string/process">
+            <intent-filter>
+                <action android:name="org.codeaurora.bluetooth.pxpservice.PxpMonitorService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name=".a4wp.A4wpService" android:process="@string/process"/>
+        <receiver android:exported="true" android:name=".a4wp.BTEventHandler" android:process="@string/process">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

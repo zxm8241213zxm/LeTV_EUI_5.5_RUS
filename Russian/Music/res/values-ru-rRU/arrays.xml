@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Лучшие песни</item>
+        <item>Музыкальные альбомы</item>
+        <item>Похожие исполнители</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="player">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Спортивные новости</item>
+        <item>Обои</item>
+        <item>Нет</item>
+        <item>Музыкальные альбомы</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Новости шоу-бизнеса</item>
+        <item>Обои</item>
+        <item>Саундтреки</item>
+        <item>Нет</item>
+        <item>Похожие исполнители</item>
+        <item>Нет</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="team">
+        <item>Фильмы и спектакли (пьесы)</item>
+        <item>Свежие новости</item>
+        <item>Обои</item>
+        <item>Похожая музыка</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Нет</item>
+        <item>Новости брендов</item>
+        <item>Обои</item>
+        <item>Обложка</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Похожие вебсайты</item>
+    </string-array>
+    <string-array name="region">
+        <item>Нет</item>
+        <item>Похожие видео</item>
+        <item>Обои</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Нет</item>
+        <item>Похожие твиты</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>Горячие</item>
+        <item>Предпродажа</item>
+        <item>Недействительный</item>
+        <item>Ожидаемый</item>
+        <item>Продано</item>
+        <item>Перенесено</item>
+        <item>Отменено</item>
+        <item>Принятый</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>Выбор редакции</item>
+        <item>Рекомендуемые</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>Китайские</item>
+        <item>Западные</item>
+        <item>Корейские</item>
+        <item>Японские</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>Песни</item>
+        <item>Альбомы</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>Новинка</item>
+        <item>Популярный</item>
+        <item>Оригинальный</item>
+        <item>Billboard</item>
+        <item>MNUT</item>
+        <item>Oricon</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>Сортировать по времени (сначала старые)</item>
+        <item>Сортировать по времени (сначала новые)</item>
+        <item>Сортировать по первой букве</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>Переименовать</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="album_detail_header_menu">
+        <item>Поделиться</item>
+        <item>Добавить в избранное</item>
+        <item>Добавить в</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>Автовыбор</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>Xiami charts</item>
+        <item>Worldwide charts</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>Популярный</item>
+        <item>Новинка</item>
+        <item>Оригинальный</item>
+        <item>Artist Demos</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito Chinese</item>
+        <item>Hong Kong Gold</item>
+        <item>UK Singles</item>
+        <item>Billboard</item>
+        <item>ORICON</item>
+        <item>MNET</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>Сингл</item>
+        <item>Исполнитель</item>
+        <item>Альбом</item>
+        <item>MV</item>
+        <item>Местный</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>Китайские исполнители</item>
+        <item>Китайские исполнительницы</item>
+        <item>Китайские группы</item>
+        <item>Западные исполнители</item>
+        <item>Западные исполнительницы</item>
+        <item>Западные группы</item>
+        <item>Японские исполнители</item>
+        <item>Японские исполнительницы</item>
+        <item>Японские группы</item>
+        <item>Корейские исполнители</item>
+        <item>Корейские исполнительницы</item>
+        <item>Корейские группы</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>Нет результата</item>
+        <item>Текст песни не найден</item>
+        <item>Музыка не найдена</item>
+        <item>Запись не найдена</item>
+        <item>Нет информации по подпискам</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 неделя</item>
+        <item>2 неделя</item>
+        <item>3 неделя</item>
+        <item>4 неделя</item>
+        <item>5 неделя</item>
+        <item>6 неделя</item>
+        <item>7 неделя</item>
+        <item>8 неделя</item>
+        <item>9 неделя</item>
+        <item>10 неделя</item>
+        <item>11 неделя</item>
+        <item>Week 12</item>
+    </string-array>
+</resources>

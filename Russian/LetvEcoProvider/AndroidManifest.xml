@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.letv.android.ecoProvider" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-219">
+    <permission android:name="com.letv.android.ecoProvider.permission.PUSH_RECEIVER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.letv.android.ecoProvider.permission.PUSH_RECEIVER"/>
+    <permission android:name="com.letv.lcm.permission.SEND"/>
+    <uses-permission android:name="com.android.calendar.permission.ECO_TAGS_CHANGED_RECEIVER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.letv.android.account.permission.ACCOUNT_RELEVANT"/>
+    <application android:label="@string/app_name" android:name="EcoProviderApplication">
+        <provider android:authorities="com.letv.android.eco" android:exported="true" android:multiprocess="false" android:name=".provider.EcoProvider"/>
+        <receiver android:name=".syncData.AccountChangeReceiver">
+            <intent-filter>
+                <action android:name="com.letv.android.account.ACTION_LOGIN"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT"/>
+                <action android:name="com.letv.android.account.ACTION_LOGOUT_SAVE"/>
+                <action android:name="com.android.calendar.ACTION_SYNCUPDATE_TAGS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".push.LePushMessageReceiver">
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_NOTIFICATION_MESSAGE"/>
+                <category android:name="com.letv.android.ecoProvider"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.stv.stvpush.ACTION_RECEIVE_PUSH_MESSAGE"/>
+                <category android:name="com.letv.android.ecoProvider"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".syncData.SubscribeSyncService"/>
+        <service android:name=".push.LetvPushIntentService"/>
+    </application>
+</manifest>

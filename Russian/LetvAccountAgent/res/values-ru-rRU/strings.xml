@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Вход в аккаунт Letv</string>
+    <string name="action_settings">Настройки</string>
+    <string name="popauth">Приложение получит следующий доступ после авторизации</string>
+    <string name="protocol">Доступ к публичной информации (прозвище, значок)</string>
+    <string name="ifneed_auth">Необходима авторизация?</string>
+    <string name="get_auth_info">Доступ к информации о привязке</string>
+    <string name="auto_auth">Авто авторизация</string>
+    <string name="auth">Подтверждение авторизации</string>
+    <string name="toast_network_disconnected">Не удается подключиться к сети. Пожалуйста, проверьте ваше соединение.</string>
+    <string name="auth_fail">Сбой авторизации</string>
+    <string name="token_error_relogin">Сбой авторизации. Пожалуйста, войдите в свой аккаунт Letv снова.</string>
+</resources>

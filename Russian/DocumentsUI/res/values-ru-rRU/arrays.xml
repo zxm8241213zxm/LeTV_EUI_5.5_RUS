@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="download_settings_limit_string_items">
+        <item>Без ограничений</item>
+        <item>20мб</item>
+        <item>10мб</item>
+        <item>5мб</item>
+        <item>2мб</item>
+        <item>1мб</item>
+        <item>512кб</item>
+        <item>Do not allow downloads</item>
+    </string-array>
+</resources>

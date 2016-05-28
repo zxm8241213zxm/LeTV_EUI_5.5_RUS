@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nfc служба</string>
+    <string name="nfcUserLabel">Nfc</string>
+    <string name="inbound_me_profile_title">Переслать контакт через NFC</string>
+    <string name="inbound_me_profile_text">Нажмите, чтобы добавить этого человека в качестве контакта.</string>
+    <string name="outbound_me_profile_title">NFC взаимодействие полное</string>
+    <string name="outbound_me_profile_text">Нажмите, чтобы дать этому человеку свою контактную информацию.</string>
+    <string name="accessibility_nfc_enabled">NFC включен.</string>
+    <string name="touch">Нажмите, чтобы переслать</string>
+    <string name="beam_progress">Прием...</string>
+    <string name="beam_outgoing">Обмен...</string>
+    <string name="beam_complete">Удалось получить файлы с помощью NFC</string>
+    <string name="beam_failed">Не удалось получить файлы по NFC</string>
+    <string name="beam_canceled">Отменен</string>
+    <string name="cancel">Отмена</string>
+    <string name="beam_touch_to_view">Нажмите, чтобы посмотреть</string>
+    <string name="beam_handover_not_supported">Устройство приемника занято или оно не поддерживает большую передачу файлов через NFC</string>
+    <string name="beam_try_again">Устройства снова соединены</string>
+    <string name="connecting_peripheral">Подключение</string>
+    <string name="connected_peripheral">Подключено</string>
+    <string name="connect_peripheral_failed">Не удалось подключиться</string>
+    <string name="disconnecting_peripheral">Отключение</string>
+    <string name="disconnected_peripheral">Отключено</string>
+    <string name="pairing_peripheral">Сопряжение</string>
+    <string name="pairing_peripheral_failed">Не удалось выполнить сопряжение</string>
+    <string name="failed_to_enable_bt">Не удалось включить Bluetooth</string>
+    <string name="confirm_pairing">Вы уверены, что хотите сопряжение Bluetooth устройства %1$s?</string>
+    <string name="pair_yes">Да</string>
+    <string name="pair_no">Нет</string>
+    <string name="tap_again_to_pay">Нажать снова для оплаты с %1$s</string>
+    <string name="tap_again_to_complete">Нажать снова для завершения с %1$s</string>
+    <string name="transaction_failure">Эта транзакция не может быть завершена с %1$s.</string>
+    <string name="could_not_use_app">"Невозможно использовать  %1$s."</string>
+    <string name="pay_with">Платить с</string>
+    <string name="complete_with">Завершить с</string>
+    <string name="default_pay_app_removed">Ваш сервис нажать &amp; платить был удален. Выбрать другой?</string>
+    <string name="ask_nfc_tap">Нажмите на другом устройстве для завершения</string>
+    <string name="wifi_connect">Подключить</string>
+    <string name="status_unable_to_connect">Не удается подключиться к сети</string>
+    <string name="status_wifi_connected">Подключено</string>
+    <string name="title_connect_to_network">Подключиться к сети</string>
+    <string name="prompt_connect_to_network">Подключиться к сети %1$s?</string>
+    <string name="beam_requires_nfc_enabled">Android Beam запрашивает включения NFC. Вы хотите включить сейчас?</string>
+    <string name="android_beam">Beam</string>
+</resources>
